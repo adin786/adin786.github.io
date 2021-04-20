@@ -2,6 +2,7 @@
 I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
 
 ## 🔭 Project summary
+
 |Project name|Links|
 |------------|-----|
 |MOT data analysis|([More detail](#mot-data-analysis)) / ([Link to repo](https://github.com/adin786/mot-data))|
