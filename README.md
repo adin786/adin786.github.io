@@ -10,7 +10,7 @@ I'm an MEng Mechanical Engineer with a software and data analytics specialism.  
 |DIC strain mapping|([More detail](#dic-strain-mapping-data-processing)) / (private repo)|
 
 ### MOT data analysis 
-<img src="images/mot-2.jpg" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/testmileage_histplot.png" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/pairplot_bymake.png" height=50>
+<img src="https://github.com/adin786/mot-data/raw/main/images/mot-2.jpg" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/testmileage_histplot.png" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/pairplot_bymake.png" height=50>
 
 Analysing 30 million MOT test records from GOV.uk, trying to extract some insights and pick out trends about failure rates.  Tools I'm using: 
 - SQLite and Pandas for ETL, loading and sorting large dataset
@@ -19,7 +19,7 @@ Analysing 30 million MOT test records from GOV.uk, trying to extract some insigh
 - Libraries: SQLite, Pandas, Seaborn, Scikit-Learn
 
 ### Used car pricing analysis
-<img src="images/used_cars2.jpg" height=50><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/modelrev.png" height=50><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/svr.png" height=50>
+<img src="https://github.com/adin786/mot-data/raw/main/images/used_cars2.jpg" height=50><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/modelrev.png" height=50><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/svr.png" height=50>
 
 Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.
 - Wrote a webscraper to extract 1000+ adverts
@@ -29,7 +29,7 @@ Modelled car pricing on Autotrader.co.uk to help decide on a selling price for m
 - libraries: BeautifulSoup4, Pandas, Seaborn, Scikit-Learn
 
 ### Titanic survivor prediction
-<img src="images/Titanic2.jpg" height=50 alt="abc"><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_ticketfreq_vs_survived.png" height=50><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_deck_vs_survived.png" height=50><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_logreg2_charts.png" height=50>
+<img src="https://github.com/adin786/mot-data/raw/main/images/Titanic2.jpg" height=50 alt="abc"><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_ticketfreq_vs_survived.png" height=50><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_deck_vs_survived.png" height=50><img src="https://github.com/adin786/ad-titanic/raw/main/images/titanic_logreg2_charts.png" height=50>
 
 Predicted survival status for passengers onboard the Titanic cruise ship.  Dataset from www.kaggle.com
 - Pandas and Seaborn for exploratory analysis
