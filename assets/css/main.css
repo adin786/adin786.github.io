@@ -2616,7 +2616,7 @@ input, select, textarea {
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
-					filter: contrast(80%) brightness(80%) /*azam*/
+					filter: contrast(80%) brightness(80%); /*azam*/
 
 				}
 
