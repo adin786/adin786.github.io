@@ -2585,7 +2585,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2616,7 +2616,7 @@ input, select, textarea {
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
-					filter: contrast(70%) brightness(70%) /*azam*/
+					filter: contrast(80%) brightness(80%) /*azam*/
 
 				}
 
@@ -2635,7 +2635,7 @@ input, select, textarea {
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.8;
+					opacity: 0.6; /*azam*/
 				}
 
 				.tiles article > .image:after {
@@ -2756,7 +2756,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.25; /*azam*/
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
