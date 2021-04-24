@@ -51,11 +51,235 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Autotrader Used Car Pricing Analysis</h1>
+						    <h1 id="autotrader-used-car-values">Autotrader used car values</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+					    <p>
+<p>Web scraping and analysis of autotrader adverts, to build a used car pricing model</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Wrote a web scraper to extract used car advert details from online marketplace for Audi A6&#39;s.</li>
+<li>Engineered 11 features including age, mileage, fsh, quattro, engine size etc.</li>
+<li>With only 2 features (age and mileage) a tuned Support Vector Machine achieved R^2=0.91 and MAE=£1622.</li>
+<li>Best model overall model was again a tuned Support Vector Machine, with R^2=0.97 and MAE=£961.</li>
+</ul>
+<p>[<a href="https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb">Link to notebook</a>]  [<a href="https://github.com/adin786/autotrader-analysis/blob/main/webscrape_at.py">Link to webscraper code</a>]</p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ol>
+<li><a href="#data-exploration-results">Data exploration results</a></li>
+<li><a href="#modelling-results">Modelling results</a></li>
+<li><a href="#future-work">Future work</a></li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+<p><strong>Libraries used:</strong> Pandas, Num)py, Requests, BeautifulSoup4, Matplotlib, Seaborn, Scikit-learn, </p>
+<p>My dataset is not uploaded so to repeat my analysis you will have to run my webscraper script.</p>
+<h2 id="data-exploration-results">Data exploration results</h2>
+<p>In terms of numerical features, both <code>age</code> and <code>mileage</code> were very strongly correlated with the target variable <code>price</code>.  These were the only 2 numerical parameters used in my analysis, everything else was engineered or binned into categorical features.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/corrmat.png" alt="corrmat.png"></p>
+<p>I used regex to extract categorical featurrs from the advert text etc.</p>
+<p>Some sellers choose to highlight when a car has full service history (or FSH).  <em>Note:</em> I did not search text within each advert&#39;s detail page, only the search page summary, so this feature was only true when the seller chose to highlight the service history in the <code>attention grabber</code> text.</p>
+<p>Generally we&#39;d expect this be appealing to buyers and increase the value... however <strong>adverts with FSH mentioned turned out to be typically lower value than the ones which didn&#39;t mention it which was surprising...</strong></p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/fsh.png" alt=""></p>
+<p>...On closer inspection <strong>fsh only tended to be mentioned on older cars</strong>.  So filtering the data down to those over 10 years old showed that the presence of &quot;fsh&quot; in the advert did <strong>tend to correlate with higher prices, but only on older cars</strong>.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/fsh10yr.png" alt=""></p>
+<p>Model revision was calculated by binning the registration dates according to some dates from Wikipedia. This is therefore just a low fidelity abstraction of the <code>age</code> feature, but I thought it was valuable to include so the model could <strong>pick up any &quot;step&quot; in pricing between consecutive model revisions</strong>.  There wasn&#39;t much overlap in pricing between these categories (except in the much older model revisions) which made sense.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/modelrev.png" alt="">
+...should insert scatter plot coloured according to model_rev classes</p>
+<p><strong>Privately sold cars were generally lower value</strong> than from trade sellers... <strong>however privately sold cars were also typically older and higher mileage</strong> than from trade sellers.  So there&#39;s some feature interactions behind this which aren&#39;t apparent from just looking at this one feature.  2nd row of plots provided below to show the distribution of age/mileage whether &quot;private&quot; or &quot;trade&quot; seller.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/privatevstrade.png" alt="">
+<img src="https://github.com/adin786/autotrader-analysis/raw/main/images/privatevstrade_agemileage.png" alt=""></p>
+<p><strong>Adverts which mentioned &quot;quattro&quot; were slightly higher value</strong>. Quattro is a feature that has been available on most modelyears of Audi A6, so this should apply across all ages of car.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/quattro.png" alt=""></p>
+<h2 id="modelling-results">Modelling results</h2>
+<p>Built a pipeline for model training and evaluation.  </p>
+<p>Trained the following &quot;Simple&quot; regression models using only 2 input features (<code>age, mileage</code>) with default hyperparams:</p>
+<ul>
+<li>Linear Regression</li>
+<li>Elastic-Net tried with L1 and L2 regularisation</li>
+<li>K-nearest neighbours (KNN)</li>
+<li>Suport Vector Machine (SVM)</li>
+<li>Decision Tree (Tree) </li>
+<li>Random Forest (Forest)</li>
+</ul>
+<p>Almost all models provided reasonable r^2 and Mean Absolute Error (MAE) scores with default hyperparameters, except the SVR model which only produced acceptable results after gridsearch tuning of hyperparams.  Without further tuning any of the other &quot;simple&quot; models, SVR was the model with lowest errors MAE=1623 and MSE=4.5e6, and highest r^2 score of 0.91.</p>
+<p>I then trained a &quot;Complex&quot; variant of each model, including all the generated input features (<code>age, mileage, engine_size, seller_private_tradd, model_rev, is_fsh, is_tdi, is_quattro, is_black_edition, is_ultra, is_s_line</code>)</p>
+<p>This resulted in a reasonable improvement in model fitting accuracy while still generalising well on the testing set and cross validation.  The best fitting model was again the SVR model using the same hyperparams as before, achieving error of MAE=961, MSE=1.8e6 r^2 score of 0.97.  Clearly the additional input features gave enough degrees of freedom to make a good fit to the data.</p>
+<p>Further tuning and ensembling may be ways to improve this.</p>
+<h4 id="inspecting-the-model">Inspecting the model</h4>
+<p>It was not trivial to visually inspect the multiple-regression model due to it&#39;s high dimensionality.  Since we know there were 2 variables which were strongly correlated with the target variable (<code>age</code> and <code>mileage</code>), all input features except these were held constant at their median or most-frequent values.  The below plots show how the model predicted price against age or mileage while holding the other input constant at 0/25/50/75/100% quartiles in order to show the full response surface of the model. </p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/svr.png" alt="svrplot"></p>
+<p>The predicted response over these continuous inputs was smooth which bodes well for generalisability.  This is in contrast with the next best model, which was a Random Forest Regressor.  Here the predicted response was less uniform and smooth.  This is due to the orthogonal decision boundaries that random forest works with and could be smoother by adjusting hyperparameters such as how deep each tree in the forest is allowed to be.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main/images/forest.png" alt="forestplot"></p>
+<p>In both models, by looking at the spread of the quartile lines it is clear that age is predicted to be a more important feature, with stronger model weighting compared to mileage.  The permutation feature importance is plotted below, confirming this.  It also shows that of the binary features, the presence of &quot;black edition&quot; and &quot;ultra&quot; in the advert text were the biggest influences on price, followed by &quot;engine_size&quot; as the most significant categorical feature.</p>
+<p><img src="https://github.com/adin786/autotrader-analysis/raw/main//images/permutation_svr2.png" alt="permutation_svr"></p>
+<h3 id="model-comparison-table-simple-model-">Model comparison table (simple model)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left">name</th>
+<th style="text-align:right">cv_mean</th>
+<th style="text-align:right">cv_std</th>
+<th style="text-align:right">mae_test</th>
+<th style="text-align:right">mse_test</th>
+<th style="text-align:right">r2_test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">0</td>
+<td style="text-align:left">Linreg basic</td>
+<td style="text-align:right">0.802644</td>
+<td style="text-align:right">0.0124396</td>
+<td style="text-align:right">2245.16</td>
+<td style="text-align:right">9.48089e+06</td>
+<td style="text-align:right">0.812901</td>
+</tr>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:left">Linreg with poly features</td>
+<td style="text-align:right">0.878056</td>
+<td style="text-align:right">0.00745929</td>
+<td style="text-align:right">1736.65</td>
+<td style="text-align:right">5.41615e+06</td>
+<td style="text-align:right">0.893116</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:left">Elastic-net</td>
+<td style="text-align:right">0.808763</td>
+<td style="text-align:right">0.0294758</td>
+<td style="text-align:right">2426.46</td>
+<td style="text-align:right">8.93401e+06</td>
+<td style="text-align:right">0.823693</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:left">KNN</td>
+<td style="text-align:right">0.890029</td>
+<td style="text-align:right">0.0154029</td>
+<td style="text-align:right">1729.91</td>
+<td style="text-align:right">4.78117e+06</td>
+<td style="text-align:right">0.905647</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:left">SVR</td>
+<td style="text-align:right">0.00689301</td>
+<td style="text-align:right">0.0048019</td>
+<td style="text-align:right">5346.68</td>
+<td style="text-align:right">5.05368e+07</td>
+<td style="text-align:right">0.00268901</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:left">SVR tuned</td>
+<td style="text-align:right">0.896578</td>
+<td style="text-align:right">0.00670467</td>
+<td style="text-align:right">1622.79</td>
+<td style="text-align:right">4.52914e+06</td>
+<td style="text-align:right">0.91062</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td style="text-align:left">Tree</td>
+<td style="text-align:right">0.863705</td>
+<td style="text-align:right">0.0176042</td>
+<td style="text-align:right">1863.78</td>
+<td style="text-align:right">5.67888e+06</td>
+<td style="text-align:right">0.887931</td>
+</tr>
+<tr>
+<td style="text-align:right">7</td>
+<td style="text-align:left">Forest</td>
+<td style="text-align:right">0.865559</td>
+<td style="text-align:right">0.0174099</td>
+<td style="text-align:right">1866.68</td>
+<td style="text-align:right">5.68772e+06</td>
+<td style="text-align:right">0.887756</td>
+</tr>
+</tbody>
+</table>
+<h3 id="model-comparison-table-complex-model-">Model comparison table (complex model)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left">name</th>
+<th style="text-align:right">cv_mean</th>
+<th style="text-align:right">cv_std</th>
+<th style="text-align:right">mae_test</th>
+<th style="text-align:right">mse_test</th>
+<th style="text-align:right">r2_test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">0</td>
+<td style="text-align:left">Linreg complex</td>
+<td style="text-align:right">0.923708</td>
+<td style="text-align:right">0.0113085</td>
+<td style="text-align:right">1280.97</td>
+<td style="text-align:right">2.83365e+06</td>
+<td style="text-align:right">0.94408</td>
+</tr>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:left">Linreg complex + poly features</td>
+<td style="text-align:right">0.94751</td>
+<td style="text-align:right">0.00473454</td>
+<td style="text-align:right">1159.01</td>
+<td style="text-align:right">2.20182e+06</td>
+<td style="text-align:right">0.956548</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:left">KNN complex + poly</td>
+<td style="text-align:right">0.951666</td>
+<td style="text-align:right">0.00797216</td>
+<td style="text-align:right">1076.34</td>
+<td style="text-align:right">2.25113e+06</td>
+<td style="text-align:right">0.955575</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:left">SVR complex</td>
+<td style="text-align:right">0.960544</td>
+<td style="text-align:right">0.00256924</td>
+<td style="text-align:right">961.387</td>
+<td style="text-align:right">1.75286e+06</td>
+<td style="text-align:right">0.965408</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:left">Tree complex</td>
+<td style="text-align:right">0.916312</td>
+<td style="text-align:right">0.0210107</td>
+<td style="text-align:right">1427.26</td>
+<td style="text-align:right">3.79339e+06</td>
+<td style="text-align:right">0.92514</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:left">Forest complex</td>
+<td style="text-align:right">0.954217</td>
+<td style="text-align:right">0.00429592</td>
+<td style="text-align:right">1048.9</td>
+<td style="text-align:right">1.87811e+06</td>
+<td style="text-align:right">0.962937</td>
+</tr>
+</tbody>
+</table>
+<h2 id="future-work">Future work</h2>
+<ul>
+<li>I could make this into a web app to deploy the code online and offer users a streamlined way to make selling price suggestions for their own car.  </li>
+<li>At the moment this model only works for an Audi A6, the approach could be made less brand specific by eliminating features like <code>is_quattro</code> or <code>is_s_line</code> etc, and by scraping data across other brands/models.</li>
+<li>Additional features could be extracted by also scraping from each advert&#39;s detail page, though this data appeared to be behind JavaScript dynamic page elements and may require an alternative web-scraping approach.</li>
+<li>Potentially could try license plate recognition and then look to bring in data from DVLA (if possible to extract more data about mot history etc, but that is a big project when even my simple models are producing accurate predictions).</li>
+</ul>
+<h2 id="note-on-web-scraping">Note on web-scraping</h2>
+<p>The use of data collected by the researchers for this study is covered by the Intellectual Property Office’s Exceptions to Copyright for Non-Commercial Research and Private Study (<a href="https://www.gov.uk/guidance/exceptions-to-copyright">https://www.gov.uk/guidance/exceptions-to-copyright</a>)</p>
+
+							</p>
 						</div>
 					</div>
 
