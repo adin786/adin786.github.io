@@ -1,8 +1,9 @@
 ---
-permalink: /about/
+permalink: /
 classes: wide
 title: "About"
 layout: splash
+hidden: true
 ---
 # Azam Din (adin786)
 I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
