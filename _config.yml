@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+t# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -13,26 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Azam Din
-email:
+title: Portfolio website
+email: adin786@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
+# twitter_username: username
 github_username: adin786
-minimal_mistakes_skin: default
-search: false
+search: true # true, false (default)
+search_full_content: true # true, false (default)
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 url: https://adin786.github.io
 baseurl: "/azam" # the subpath of your site, e.g. "/blog"
+repository: "adin786/adin786.github.io"
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
