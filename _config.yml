@@ -28,6 +28,9 @@ search: false
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+url: https://adin786.github.io
+baseurl: "/azam" # the subpath of your site, e.g. "/blog"
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
