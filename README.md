@@ -1,6 +1,6 @@
 ---
 title: "Home"
-layout: pages
+layout: home
 ---
 
 # Azam Din (adin786)
