@@ -1,7 +1,7 @@
 ---
 permalink: /
 classes: wide
-title: "About"
+title: "Home"
 layout: splash
 hidden: true
 ---
