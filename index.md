@@ -1,8 +1,7 @@
 ---
-permalink: /
 classes: wide
 title: "Home"
-layout: splash
+layout: home
 hidden: true
 ---
 # Azam Din (adin786)
