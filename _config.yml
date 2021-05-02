@@ -28,7 +28,7 @@ search_full_content: true # true, false (default)
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-url: https://adin786.github.io
+# url: https://adin786.github.io
 # baseurl: "/" # the subpath of your site, e.g. "/blog"
 # repository: "adin786/adin786.github.io"
 
