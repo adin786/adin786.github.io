@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: Home
 layout: splash
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
