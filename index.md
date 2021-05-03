@@ -27,6 +27,9 @@ I'm an MEng Mechanical Engineer with a software and data analytics specialism.  
 |Titanic survivor prediction|([More detail](#titanic-survivor-prediction)) / ([Link to repo](https://github.com/adin786/ad-titanic))|
 |DIC strain mapping|([More detail](#dic-strain-mapping-data-processing)) / (private repo)|
 
+{% include feature_row %}
+
+
 ### MOT data analysis 
 <img src="https://github.com/adin786/adin786/raw/main/images/mot-2.jpg" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/testmileage_histplot.png" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/pairplot_bymake.png" height=50>
 
