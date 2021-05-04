@@ -2,7 +2,8 @@
 title: "Gov.uk MOT data analysis"
 excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
 header:
-  image: /assets/images/mot.jpg
+  image:   /assets/images/mot-header.jpg
+  teaser:  /assets/images/mot-teaser.jpg
 permalink: /portfolio/mot
 ---
 # Exec summary

@@ -2,7 +2,8 @@
 title: "Titanic passenger  survivor prediction"
 excerpt: "Predicted survival status for passengers onboard the Titanic cruise ship."
 header:
-  image: /assets/images/titanic-header.jpg
+  image:   /assets/images/titanic-header.jpg
+  teaser:  /assets/images/titanic-teaser.jpg
 permalink: /portfolio/titanic
 ---
 Predicted survival status for passengers onboard the Titanic cruise ship. Dataset from www.kaggle.com
