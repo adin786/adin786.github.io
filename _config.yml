@@ -131,7 +131,7 @@ tag_archive:
   type: liquid
   path: /tags/
   
-# collections:
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
