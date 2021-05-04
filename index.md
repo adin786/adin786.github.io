@@ -21,7 +21,7 @@ feature_row:
 
 Hi, I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
 
-## � Project summary
+## Project summary
 
 |Project name|Links|
 |------------|-----|
@@ -67,10 +67,10 @@ Commercial project. I've written a toolkit of python scripts and modules to take
 ### Other software projects in MatLab and Python
 - Matlab GUI tool for data processing, visualisation and automation of Automotive ECU tuning
 
-### 🌱 I’m currently learning ...
+### I'm currently learning ...
 Data science, python, SQL, machine learning models, data transformation, mining and visualisation
 
-## 📫 How to reach me:
+## How to reach me:
 [Github](https://github.com/adin786/)   /   [Linkedin](https://www.linkedin.com/in/azam-din/)   /   [Kaggle](https://www.kaggle.com/azamdin)
 
 
