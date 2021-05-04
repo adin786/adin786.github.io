@@ -1,10 +1,27 @@
 ---
-title: "Home"
+title: Home
+layout: splash
+author_profile: true
+feature_row:
+  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting. "
 ---
-# Azam Din (adin786)
-I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
 
-## ðŸ”­ Project summary
+Hi, I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
+
+## ­ Project summary
 
 |Project name|Links|
 |------------|-----|
@@ -12,6 +29,8 @@ I'm an MEng Mechanical Engineer with a software and data analytics specialism.  
 |Used car pricing analysis|([More detail](#used-car-pricing-analysis)) / ([Link to repo](https://github.com/adin786/autotrader-analysis))
 |Titanic survivor prediction|([More detail](#titanic-survivor-prediction)) / ([Link to repo](https://github.com/adin786/ad-titanic))|
 |DIC strain mapping|([More detail](#dic-strain-mapping-data-processing)) / (private repo)|
+
+{% include feature_row %} 
 
 ### MOT data analysis 
 <img src="https://github.com/adin786/adin786/raw/main/images/mot-2.jpg" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/testmileage_histplot.png" height=50><img src="https://github.com/adin786/mot-data/raw/main/images/pairplot_bymake.png" height=50>
