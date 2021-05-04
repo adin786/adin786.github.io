@@ -2,11 +2,11 @@
 title: "Titanic passenger survivor prediction"
 excerpt: "Predicted survival status for passengers onboard the Titanic cruise ship"
 header:
-  teaser:  /assets/images/titanic-teaser.jpg
   overlay_image:   /assets/images/titanic-header.jpg
   actions:
     - label: "View the Jupyter Notebook"
-	  url: "https://nbviewer.jupyter.org/github/adin786/ad-titanic/blob/main/titanic.ipynb"
+      url: "https://nbviewer.jupyter.org/github/adin786/ad-titanic/blob/main/titanic.ipynb"
+  teaser:  /assets/images/titanic-teaser.jpg
 permalink: /portfolio/titanic
 ---
 Predicted survival status for passengers onboard the Titanic cruise ship. Dataset from www.kaggle.com

@@ -6,7 +6,7 @@ header:
   overlay_filter:  0.3
   actions:
     - label: "View the Jupyter Notebook"
-	  url:   "https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb"
+      url:   "https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb"
   teaser:  /assets/images/used-cars-teaser.jpg
 permalink: /portfolio/used-cars
 ---

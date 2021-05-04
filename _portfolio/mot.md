@@ -6,7 +6,7 @@ header:
   overlay_filter:  0.3
   actions:
     - label: "View the Jupyter Notebook"
-	  url:   "https://nbviewer.jupyter.org/github/adin786/mot-data/blob/main/mot_analysis.ipynb"
+      url:   "https://nbviewer.jupyter.org/github/adin786/mot-data/blob/main/mot_analysis.ipynb"
   teaser:  /assets/images/mot-teaser.jpg
 permalink: /portfolio/mot
 ---
