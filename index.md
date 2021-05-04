@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: archive
 author_profile: true
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
