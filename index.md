@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: splash
 author_profile: true
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
@@ -30,7 +30,7 @@ Hi, I'm an MEng Mechanical Engineer with a software and data analytics specialis
 |Titanic survivor prediction|([More detail](#titanic-survivor-prediction)) / ([Link to repo](https://github.com/adin786/ad-titanic))|
 |DIC strain mapping|([More detail](#dic-strain-mapping-data-processing)) / (private repo)|
 
-{% include feature_row %}
+{% include feature_row %} 
 
 
 ### MOT data analysis 
