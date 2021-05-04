@@ -6,8 +6,8 @@ feature_row:
   - image_path: /assets/images/used-cars.jpg
     alt: "Cars at auction"
     title: "Used car pricing analysis"
-    excerpt: "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.
-    BeautifulSoup4, Pandas, Seaborn, Scikit-Learn"
+    excerpt: "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.<br>
+    `BeautifulSoup4``Pandas``Seaborn``Scikit-Learn`"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder 2"
