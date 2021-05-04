@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: archive
+classes: wide
 author_profile: true
 feature_row:
   - image_path: /assets/images/used-cars.jpg
