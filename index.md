@@ -8,20 +8,20 @@ feature_row:
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
     excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6. `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
-    url:           "/_portfolio/used-cars.md"
+    url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
   - image_path:    /assets/images/mot.jpg
     alt:           "mot inspection"
     title:         "Gov.uk MOT data analysis"
     excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates. `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
-    url:           "/_portfolio/mot.md"
+    url:           "/portfolio/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
   - image_path:    /assets/images/titanic.jpg
     title:         "Titanic survivor prediction"
     excerpt:       "Predicted survival status for passengers onboard the Titanic cruise ship. `Pandas`,`Seaborn`,`Scikit-Learn`"
-    url:           "/_portfolio/titanic.md"
+    url:           "/portfolio/titanic"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 ---

@@ -3,6 +3,7 @@ title: "Gov.uk MOT data analysis"
 excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
 header:
   image: /assets/images/mot.jpg
+permalink: /portfolio/mot
 ---
 # Exec summary
 - Built a local SQLite database over 3Gb and 37mil records.

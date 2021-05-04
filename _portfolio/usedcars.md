@@ -1,6 +1,7 @@
 ---
 title: "Used car valuation model"
 excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
+permalink: /portfolio/used-cars
 ---
 Web scraping and analysis of autotrader adverts, to build a used car pricing model
 
