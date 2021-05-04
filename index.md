@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+author_profile: true
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -15,8 +16,7 @@ feature_row:
     btn_class: "btn--inverse"
 ---
 
-# Azam Din (adin786)
-I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
+Hi, I'm an MEng Mechanical Engineer with a software and data analytics specialism.  I'm learning Data Science and machine learning skills to maximise my value as a numerical and analytical problem solver.  This Github is my place to document a few of my projects, develop good software development practises and hopefully build some stories around data!
 
 ## 🔭 Project summary
 
