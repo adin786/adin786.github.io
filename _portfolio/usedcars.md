@@ -2,7 +2,11 @@
 title: "Used car valuation model"
 excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
 header:
-  image:   /assets/images/used-cars-header.jpg
+  overlay_image:   /assets/images/used-cars-header.jpg
+  overlay_filter:  0.3
+  actions:
+    - label: "View the Jupyter Notebook"
+	  url:   "https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb"
   teaser:  /assets/images/used-cars-teaser.jpg
 permalink: /portfolio/used-cars
 ---

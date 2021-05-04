@@ -1,8 +1,12 @@
 ---
 title: "Gov.uk MOT data analysis"
-excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
+excerpt: "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates"
 header:
-  image:   /assets/images/mot-header.jpg
+  overlay_image:   /assets/images/mot-header.jpg
+  overlay_filter:  0.3
+  actions:
+    - label: "View the Jupyter Notebook"
+	  url:   "https://nbviewer.jupyter.org/github/adin786/mot-data/blob/main/mot_analysis.ipynb"
   teaser:  /assets/images/mot-teaser.jpg
 permalink: /portfolio/mot
 ---
