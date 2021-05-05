@@ -85,3 +85,4 @@ Data science, python, SQL, machine learning models, data transformation, mining 
 ## How to reach me:
 [Github](https://github.com/adin786/)   /   [Linkedin](https://www.linkedin.com/in/azam-din/)   /   [Kaggle](https://www.kaggle.com/azamdin)
 -->
+<!-- Site structure and layout inspired by https://shravan-kuchkula.github.io/ -->

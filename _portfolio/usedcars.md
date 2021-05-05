@@ -9,6 +9,7 @@ header:
       url:   "https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb"
   teaser:  /assets/images/used-cars-teaser.jpg
 permalink: /portfolio/used-cars
+related: true
 ---
 Web scraping and analysis of autotrader adverts, to build a used car pricing model
 

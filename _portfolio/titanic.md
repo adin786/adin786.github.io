@@ -2,7 +2,7 @@
 title: "Titanic passenger survivor prediction"
 excerpt: "Predicted survival status for passengers onboard the Titanic cruise ship"
 header:
-  overlay_image:   /assets/images/titanic-header.jpg
+  overlay_image: /assets/images/titanic-header.jpg
   actions:
     - label: "View the Jupyter Notebook"
       url: "https://nbviewer.jupyter.org/github/adin786/ad-titanic/blob/main/titanic.ipynb"
