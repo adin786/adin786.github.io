@@ -1,6 +1,7 @@
 ---
 title: About
 layout: archive
+permalink: /about/
 author_profile: true
 ---
 *Bio:* Data Scientist and Analyst with a background in product and test engineering
