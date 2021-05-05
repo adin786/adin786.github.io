@@ -1,7 +1,8 @@
 ---
-title: Home
-layout: archive
-classes: wide
+title:          About
+permalink:      /
+layout:         archive
+classes:        wide
 author_profile: true
 feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
@@ -11,6 +12,7 @@ feature_row:
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
+feature_row2:
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
     title:         "Gov.uk MOT data analysis"
@@ -18,6 +20,7 @@ feature_row:
     url:           "/portfolio/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
+feature_row3:
   - image_path:    /assets/images/titanic-teaser.jpg
     title:         "Titanic survivor prediction"
     excerpt:       "Predicted survival status for passengers onboard the Titanic cruise ship. `Pandas`,`Seaborn`,`Scikit-Learn`"
@@ -30,7 +33,9 @@ feature_row:
 Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I have a background working with data in automotive fleet telematics and I'm currently working on data processing for a new camera based 3D scanning system.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time to apply my expert numerical and analytical skills to new problems.  Here are some highlights below.
 
 # Portfolio
-{% include feature_row %} 
+{% include feature_row type="left" %} 
+{% include feature_row id="feature_row2" type="right" %}
+{% include feature_row id="feature_row3" type="left" %}
 
 # Data science and analytics skills and tools
 - Languages: `Python` `Matlab` `SQL`
