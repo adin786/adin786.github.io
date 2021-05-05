@@ -42,7 +42,7 @@ Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I 
 # Other skills and tools
 - Google Cloud: `BigQuery` `Datastudio`
 - Web scraping: `BeatifulSoup4`
-- Other libraries: `pptk` for point clouds, `
+- Other libraries: `pptk` for point cloud processing
 
 # Currently learning
 - `tensorflow/keras` `fastai`
