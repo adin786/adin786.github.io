@@ -25,11 +25,29 @@ feature_row:
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 ---
+**Bio:** Data Scientist with a background in fleet telematics and data acquisition
 
 Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I have a background working with data in automotive fleet telematics and I'm currently working on data processing for a new camera based 3D scanning system.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time to apply my expert numerical and analytical skills to new problems.  Here are some highlights below.
 
+# Portfolio
 {% include feature_row %} 
 
+# Data science and analytics skills and tools
+- Languages: `Python` `Matlab` `SQL`
+- Databases: `SQLite` `BigQuery`
+- Machine learning: `sklearn`
+- Data manipulation: `pandas` `numpy` `dask` `scipy`
+- Visualisation: `matplotlib` `seaborn` `plotly` `Tableau`
+
+# Other skills and tools
+- Google Cloud: `BigQuery` `Datastudio`
+- Web scraping: `BeatifulSoup4`
+- Other libraries: `pptk` for point clouds, `
+
+# Currently learning
+- `tensorflow/keras` `fastai`
+- `Databricks` `spark`
+- `Airflow`
 
 
 <!--

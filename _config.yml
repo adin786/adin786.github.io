@@ -1,3 +1,4 @@
+# have a look at http://www.pwills.com/posts/2017/12/20/website.html for font size change
 title: Data Science Portfolio
 email: adin786@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -10,7 +11,7 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Outputting
 # permalink: /:categories/:title/
