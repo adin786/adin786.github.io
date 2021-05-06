@@ -8,11 +8,11 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "Developed a used car pricing model to optimise the selling price for my own car. 
-- Wrote a webscraper to extract 1000+ adverts
-- Analysed trends and extracted 11 features about the cars from each advert
-- Tuned a Support Vector Regression model which achieved r^2 of 0.97 and MAE of £961
-- Most important features were age and mileageScraped data from Autotrader.co.uk 
+    excerpt:       "Developed a used car pricing model to optimise the selling price for my own car.<br>
+- Wrote a webscraper to extract 1000+ adverts<br>
+- Analysed trends and extracted 11 features about the cars from each advert<br>
+- Tuned a Support Vector Regression model which achieved r^2 of 0.97 and MAE of £961<br>
+- Most important features were age and mileageScraped data from Autotrader.co.uk<br>
 - **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
