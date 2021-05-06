@@ -8,7 +8,8 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6. `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
+    excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.\
+**Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
@@ -34,7 +35,7 @@ Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I 
 
 # Portfolio
 {% include feature_row type="left" %} 
-{% include feature_row id="feature_row2" type="right" %}
+{% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 
 # Data science and analytics skills and tools
