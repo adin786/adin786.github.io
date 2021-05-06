@@ -8,7 +8,7 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.\
+    excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.<br>
 **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
