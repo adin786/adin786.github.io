@@ -35,7 +35,7 @@ plugins:
 author:
   name   : "Azam Din"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist and Analyst with an Mechanical Engineering background"
+  bio    : "Data Scientist and Analyst with a Mechanical Engineering background"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

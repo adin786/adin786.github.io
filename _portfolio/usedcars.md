@@ -1,6 +1,6 @@
 ---
 title: "Used car valuation model"
-excerpt: "Scrape autotrader ads and build a valuation model to sell my Audi A6"
+excerpt: "Scrape autotrader ads and build a valuation model to optimise selling price for my Audi A6"
 header:
   overlay_image:   /assets/images/used-cars-header.jpg
   overlay_filter:  0.3

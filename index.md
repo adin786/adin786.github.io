@@ -8,8 +8,12 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "Modelled car pricing on Autotrader.co.uk to help decide on a selling price for my own Audi A6.<br>
-**Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
+    excerpt:       "Developed a used car pricing model to optimise the selling price for my own car. 
+- Wrote a webscraper to extract 1000+ adverts
+- Analysed trends and extracted 11 features about the cars from each advert
+- Tuned a Support Vector Regression model which achieved r^2 of 0.97 and MAE of £961
+- Most important features were age and mileageScraped data from Autotrader.co.uk 
+- **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
@@ -17,19 +21,21 @@ feature_row2:
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
     title:         "Gov.uk MOT data analysis"
-    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates. `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
+    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates.<br>
+**Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 feature_row3:
   - image_path:    /assets/images/titanic-teaser.jpg
     title:         "Titanic survivor prediction"
-    excerpt:       "Predicted survival status for passengers onboard the Titanic cruise ship. `Pandas`,`Seaborn`,`Scikit-Learn`"
+    excerpt:       "Predicted survival status for passengers onboard the Titanic cruise ship.<br>
+**Libraries:** `Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/titanic"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 ---
-**Bio:** Data Scientist with a background in fleet telematics and data acquisition
+**Bio:** Data Scientist with a strong background in product and test engineering
 
 Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I have a background working with data in automotive fleet telematics and I'm currently working on data processing for a new camera based 3D scanning system.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time to apply my expert numerical and analytical skills to new problems.  Here are some highlights below.
 
@@ -51,7 +57,7 @@ Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I 
 - Other libraries: `pptk` for point cloud processing
 
 # Currently learning
-- `tensorflow/keras` `fastai`
+- `tensorflow/keras`
 - `Databricks` `spark`
 - `Airflow`
 
