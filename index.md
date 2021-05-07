@@ -9,10 +9,11 @@ feature_row:
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
     excerpt:       "Developed a used car pricing model to optimise the selling price for my own car.<br>
-- Wrote a webscraper to extract 1000+ adverts<br>
-- Analysed trends and extracted 11 features about the cars from each advert<br>
-- Tuned a Support Vector Regression model which achieved r^2 of 0.97 and MAE of £961<br>
-- Most important features were age and mileageScraped data from Autotrader.co.uk<br>
+Wrote a webscraper to extract 1000+ adverts from Autotrader.  Analysed trends and extracted 11 features from each advert
+
+Trained an SVR Regression model with r^2 = 0.97 and Mean Abs Error = £961.  
+
+The most influential features on price, were age and mileage
 
 **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`
 {: .notice--primary}"
