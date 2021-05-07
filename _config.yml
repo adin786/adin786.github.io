@@ -49,6 +49,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/azam-din"
+    - label: "CV download"
+      icon: "fas fa-file-pdf"
+      #icon: "fab fa-fw fa-file-pdf"
+      url: "https://github.com/adin786/adin786.github.io/blob/main/assets/files/CV%20-%20Azam%20Din.pdf?raw=true"
 
 footer:
   links:
@@ -59,9 +63,10 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/azam-din"
     - label: "CV download"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fas fa-file-pdf"
+      #icon: "fab fa-fw fa-file-pdf"
       url: "https://github.com/adin786/adin786.github.io/blob/main/assets/files/CV%20-%20Azam%20Din.pdf?raw=true"
-
+      
 defaults:
   # _posts
   - scope:
