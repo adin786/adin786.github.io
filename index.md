@@ -13,7 +13,9 @@ feature_row:
 - Analysed trends and extracted 11 features about the cars from each advert<br>
 - Tuned a Support Vector Regression model which achieved r^2 of 0.97 and MAE of £961<br>
 - Most important features were age and mileageScraped data from Autotrader.co.uk<br>
-- **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`"
+
+**Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`
+{: .notice--primary}"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
