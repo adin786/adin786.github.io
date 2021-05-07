@@ -10,12 +10,8 @@ feature_row:
     title:         "Used car pricing analysis"
     excerpt:       "Developed a used car pricing model to optimise the selling price for my own car.<br>
 Wrote a webscraper to extract 1000+ adverts from Autotrader.  Analysed trends and extracted 11 features from each advert  
-
-
 Trained an SVR Regression model with r^2 = 0.97 and Mean Abs Error = £961.  
-
 The most influential features on price, were age and mileage<br>
-
 **Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`{: .notice--primary}"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
@@ -24,10 +20,8 @@ feature_row2:
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
     title:         "Gov.uk MOT data analysis"
-    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates.<br>
-{:refdef: .notice--primary}
-**Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`
-{: refdef}"
+    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates.  
+**Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
