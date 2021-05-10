@@ -8,16 +8,13 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "I built a used car valuation model to optimise the selling price for my own car.<br>
+    excerpt:       "I built a used car valuation model to optimise the selling price for my own car.<br><br>
 
-I gathered data by web-scraping 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.  I engineered 11 features in total and used them to train a series of regression models.<br>
- 
-I selected and tuned an SVR Regression model, which achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage<br>
+I web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.<br><br>
 
-The project was quite successful, valuing my car at £9,838 which was within £200 of Autotrader's own recommended selling price.<br>
+With an SVR Regression model I achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage.  The final result valued my car within £200 of Autotrader's own recommended selling price.<br><br>
 
-**Libraries:** `BeautifulSoup4`,`Pandas`,`Seaborn`,`Scikit-Learn`
-{: .notice} "
+**Libraries:** `Pandas`, `NumPy`, `Requests`, `BeautifulSoup4`, `Matplotlib`, `Seaborn` `Scikit-learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
