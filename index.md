@@ -9,7 +9,8 @@ feature_row:
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
     excerpt:       "Developed a used car pricing model to optimise the selling price for my own car.<br>
-Wrote a webscraper to extract 1000+ adverts from Autotrader.  Analysed trends and extracted 11 features from each advert.<br> 
+Wrote a webscraper to extract 1000+ adverts from Autotrader.<br>
+Analysed trends and extracted 11 features from each advert.<br> 
 Trained an SVR Regression model with r^2 = 0.97 and Mean Abs Error = £961.<br>  
 The most influential features on price, were age and mileage<br>
 
