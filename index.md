@@ -8,16 +8,13 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "I built a used car valuation model to optimise the selling price for my own car.<br><br>
-
-I web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.<br><br>
-
-With an SVR Regression model I achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage.  The final result valued my car within £200 of Autotrader's own recommended selling price.<br><br>
-
-**Libraries:** `Pandas`, `NumPy`, `Requests`, `BeautifulSoup4`, `Matplotlib`, `Seaborn` `Scikit-learn`"
+    excerpt:       "- I built a used car valuation model to optimise the selling price for my own car.<br>
+- I web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.<br>
+- With an SVR Regression model I achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage.  The final result valued my car within £200 of Autotrader's own recommended selling price.<br>
+- `Pandas`, `NumPy`, `Requests`, `BeautifulSoup4`, `Matplotlib`, `Seaborn` `Scikit-learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
+    btn_class:     "btn--primary"
 feature_row2:
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
@@ -26,7 +23,7 @@ feature_row2:
 **Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/mot"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
+    btn_class:     "btn--primary"
 feature_row3:
   - image_path:    /assets/images/titanic-teaser.jpg
     title:         "Titanic survivor prediction"
@@ -34,7 +31,7 @@ feature_row3:
 **Libraries:** `Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/titanic"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
+    btn_class:     "btn--primary"
 ---
 **Bio:** Data Scientist with a strong background in product and test engineering
 
