@@ -25,7 +25,7 @@ I've been looking to sell my car and struggled to decide on a fair selling price
 - The features which influenced pricing most were Age and Mileage.
 - The model valued my car at £9,838.  Which is within £200 of Autotrader's own "recommended selling price".
 
-**Libraries used:** Pandas, Num)py, Requests, BeautifulSoup4, Matplotlib, Seaborn, Scikit-learn, 
+**Libraries used:** `Pandas`, `NumPy`, `Requests`, `BeautifulSoup4`, `Matplotlib`, `Seaborn` `Scikit-learn`, 
 {: .notice}
 
 [Link to notebook](https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb){: .btn .btn--primary } [Link to webscraper code](https://github.com/adin786/autotrader-analysis/blob/main/webscrape_at.py){: .btn .btn--primary }
