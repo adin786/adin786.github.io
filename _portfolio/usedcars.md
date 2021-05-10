@@ -3,7 +3,7 @@ title: "Used car valuation model"
 excerpt: "Scrape autotrader ads and build a valuation model to optimise selling price for my Audi A6"
 header:
   overlay_image:   /assets/images/used-cars-header.jpg
-  overlay_filter:  0.3
+  overlay_filter:  0.5
   actions:
     - label: "Jupyter Notebook"
       url:   "https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb"
@@ -16,7 +16,7 @@ toc_sticky: true
 permalink: /portfolio/used-cars
 related: true
 ---
-I'm looking to sell my car and struggling to decide on a fair selling price.  I decided to scrape some data from [Autotrader](https://www.autotrader.co.uk/) and analyse the prices of similarly spec'd cars to build a valuation model.  The project was a success with good agreement between the model's price estimate, and existing online valuation tools.
+I've been looking to sell my car and struggled to decide on a fair selling price.  I decided to scrape some data from [Autotrader](https://www.autotrader.co.uk/) and analyse the prices of similarly spec'd cars to build a valuation model.  The project quite successful with good agreement between the model's price estimate, and existing online valuation tools.
 
 # Summary
 - Wrote a web scraper to extract 1000 adverts for Audi A6's.
@@ -25,10 +25,10 @@ I'm looking to sell my car and struggling to decide on a fair selling price.  I 
 - The features which influenced pricing most were Age and Mileage.
 - The model valued my car at £9,838.  Which is within £200 of Autotrader's own "recommended selling price".
 
-[[Link to notebook](https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb)]  [[Link to webscraper code](https://github.com/adin786/autotrader-analysis/blob/main/webscrape_at.py)]
-
 **Libraries used:** Pandas, Num)py, Requests, BeautifulSoup4, Matplotlib, Seaborn, Scikit-learn, 
 {: .notice}
+
+[Link to notebook](https://nbviewer.jupyter.org/github/adin786/autotrader-analysis/blob/main/autotrader_analysis.ipynb){: .btn .btn--primary } [Link to webscraper code](https://github.com/adin786/autotrader-analysis/blob/main/webscrape_at.py){: .btn .btn--primary }
 
 # Data exploration
 In terms of numerical features, both `age` and `mileage` were very strongly correlated with the target variable `price`.  These were the only 2 numerical parameters used in my analysis, everything else was engineered or binned into categorical features.
@@ -94,6 +94,7 @@ In both models, by looking at the spread of the quartile lines it is clear that 
 
 
 ## Model comparison table (simple model)
+
 |----+---------------------------+------------+------------+------------+-------------+------------|
 |    | name                      |    cv_mean |     cv_std |   mae_test |    mse_test |    r2_test |
 |---:|:--------------------------|-----------:|-----------:|-----------:|------------:|-----------:|
@@ -107,16 +108,16 @@ In both models, by looking at the spread of the quartile lines it is clear that 
 |  7 | Forest                    | 0.865559   | 0.0174099  |    1866.68 | 5.68772e+06 | 0.887756   |
 |----+---------------------------+------------+------------+------------+-------------+------------|
 
-
 ## Model comparison table (complex model)
+
 |    | name                           |   cv_mean |     cv_std |   mae_test |    mse_test |   r2_test |
 |---:|:-------------------------------|----------:|-----------:|-----------:|------------:|----------:|
 |  0 | Linreg complex                 |  0.923708 | 0.0113085  |   1280.97  | 2.83365e+06 |  0.94408  |
 |  1 | Linreg complex + poly features |  0.94751  | 0.00473454 |   1159.01  | 2.20182e+06 |  0.956548 |
 |  2 | KNN complex + poly             |  0.951666 | 0.00797216 |   1076.34  | 2.25113e+06 |  0.955575 |
-|  3 | SVR complex                    |  0.960544 | 0.00256924 |    961.387 | 1.75286e+06 |  0.965408 |
+|  3 | SVR complex                    |  0.960544 | 0.00256924 |    961.39  | 1.75286e+06 |  0.965408 |
 |  4 | Tree complex                   |  0.916312 | 0.0210107  |   1427.26  | 3.79339e+06 |  0.92514  |
-|  5 | Forest complex                 |  0.954217 | 0.00429592 |   1048.9   | 1.87811e+06 |  0.962937 |
+|  5 | Forest complex                 |  0.954217 | 0.00429592 |   1048.90  | 1.87811e+06 |  0.962937 |
 
 # Future work
 - I could make this into a web app to deploy the code online and offer users a streamlined way to make selling price suggestions for their own car.  
@@ -124,5 +125,3 @@ In both models, by looking at the spread of the quartile lines it is clear that 
 - Additional features could be extracted by also scraping from each advert's detail page, though this data appeared to be behind JavaScript dynamic page elements and may require an alternative web-scraping approach.
 - Potentially could try license plate recognition and then look to bring in data from DVLA (if possible to extract more data about mot history etc, but that is a big project when even my simple models are producing accurate predictions).
 
-# Note on web-scraping
-The use of data collected by the researchers for this study is covered by the Intellectual Property Office’s Exceptions to Copyright for Non-Commercial Research and Private Study (https://www.gov.uk/guidance/exceptions-to-copyright)
