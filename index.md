@@ -8,8 +8,8 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "<ul style='padding-inline-start:20px'><li>I built a used car valuation model to optimise the selling price for my own car.</li>
-    <li>I web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.</li>  
+    excerpt:       "<ul style='padding-inline-start:20px'><li>Built a used car valuation model to optimise the selling price for my own car.</li>
+    <li>Web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.</li>  
     <li>With an SVR Regression model I achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage.</li>
     <li>The final result valued my car within £200 of Autotrader's own recommended selling price.</li></ul>
     **Libraries:** `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Scikit-learn` "
@@ -19,7 +19,7 @@ feature_row:
 feature_row2:
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
-    title:         "Gov.uk MOT data analysis"
+    title:         "MOT data analysis"
     excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates.<br>
 **Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
     url:           "/portfolio/mot"
@@ -44,7 +44,7 @@ feature_row4:
 ---
 **Bio:** Data Scientist with a background in product development and test engineering
 
-Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I have a background working with data in automotive fleet telematics and I'm currently working on data processing for a new camera based 3D scanning system.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time to apply my expert numerical and analytical skills to new problems.  Here are some highlights below.
+Hi, I'm a Mechanical Engineer with a software and data science specialism.  I have a background working with data in automotive fleet telematics and am currently developing a data transformation library for 3D scanning data.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time and am seeking a Data Science role to apply my analytical skills to business problems.
 
 # Portfolio
 {% include feature_row type="left" %} 
@@ -52,17 +52,19 @@ Hi, I'm a Mechanical Engineer with a software and data analytics specialism.  I 
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
 
-# Data science and analytics skills and tools
+# Data science tools
 - Languages: `Python` `Matlab` `SQL`
 - Databases: `SQLite` `BigQuery`
 - Machine learning: `sklearn`
+- Tex analytics: `nltk`
 - Data manipulation: `pandas` `numpy` `dask` `scipy`
 - Visualisation: `matplotlib` `seaborn` `plotly` `Tableau`
+- 
 
 # Other skills and tools
 - Google Cloud: `BigQuery` `Datastudio`
 - Web scraping: `BeatifulSoup4`
-- Other libraries: `pptk` for point cloud processing
+- Other: `pptk` (point cloud visualisation)
 
 # Currently learning
 - `tensorflow/keras`
