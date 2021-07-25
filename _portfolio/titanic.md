@@ -7,7 +7,10 @@ header:
     - label: "View the Jupyter Notebook"
       url: "https://nbviewer.jupyter.org/github/adin786/ad-titanic/blob/main/titanic.ipynb"
   teaser:  /assets/images/titanic-teaser.jpg
-permalink: /portfolio/titanic
+toc:        true
+toc_label:  "Table of contents"
+toc_sticky: true
+permalink: /portfolio/titanic 
 ---
 Predicted survival status for passengers onboard the Titanic cruise ship. Dataset from www.kaggle.com
 

@@ -1,5 +1,5 @@
 ---
-title:          Azam Din
+title:          About me
 permalink:      /
 layout:         archive
 classes:        wide
@@ -8,58 +8,90 @@ feature_row:
   - image_path:    /assets/images/used-cars-teaser.jpg
     alt:           "Cars at auction"
     title:         "Used car pricing analysis"
-    excerpt:       "<ul style='padding-inline-start:20px'><li>Built a used car valuation model to optimise the selling price for my own car.</li>
+    excerpt:       "<ul style='padding-inline-start:20px'>
+    <li>Built a used car valuation model to optimise the selling price for my own car.</li>
     <li>Web-scraped 1000+ adverts from Autotrader and analysed price trends against features like age, mileage, engine size etc.</li>  
     <li>With an SVR Regression model I achieved R^2: 0.97 and MAE: £961.  The most influential features on price were age and mileage.</li>
-    <li>The final result valued my car within £200 of Autotrader's own recommended selling price.</li></ul>
-    **Libraries:** `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Scikit-learn` "
+    <li>The final result valued my car within £200 of Autotrader's own recommended selling price.</li>
+    </ul>
+    **Tools:** `Python` `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Scikit-learn`"
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
-feature_row2:
+  - image_path:    /assets/images/unsplash-gallery-image-2-th.jpg
+    alt:           "Cars at auction"
+    title:         "Job market analysis (NLP)"
+    excerpt:       "<ul style='padding-inline-start:20px'>
+    <li>Created a job title classifier using NLP techniques with job description text scraped from indeed.com.</li>
+    <li>Extracted the most commonly requested skills for various data job titles such as Data Scientist/Analyst/Engineer etc.</li>
+    <li>Automation of job titling could boost recruitment efficiency and better reach the most suitable candidates.</li>
+    <li>Forms the basis of a future, more generalised “job-advert-checking” tool to aid candidates in their job search.</li>
+    </ul>
+    **Libraries:** `Requests` `BeautifulSoup4` `Pandas` `NTLK` `spaCy` `Seaborn` `Scikit-learn` `Tableau`"
+    url:           "/portfolio/used-cars"
+    btn_label:     "Read More"
+    btn_class:     "btn--inverse"
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
     title:         "MOT data analysis"
-    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in pass/fail rates.<br>
-**Libraries:** `SQLite`,`Pandas`,`Seaborn`,`Scikit-Learn`"
+    excerpt:       "<ul style='padding-inline-start:20px'><li>Analysed 30mi MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.</li></ul>
+**Libraries:** `SQLite` `Pandas` `Seaborn` `Scikit-Learn`"
     url:           "/portfolio/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
-feature_row3:
   - image_path:    /assets/images/titanic-teaser.jpg
     title:         "Titanic survivor prediction"
-    excerpt:       "Predicted survival status for passengers onboard the Titanic cruise ship.<br>
-**Libraries:** `Pandas`,`Seaborn`,`Scikit-Learn`"
-    url:           "/portfolio/titanic"
-    btn_label:     "Read More"
-    btn_class:     "btn--inverse"
-feature_row4:
-  - image_path:    /assets/images/unsplash-gallery-image-1-th.jpg
-    title:         "Titanic survivor predictionPlaceholder for project"
-    excerpt:       "...<br>
-    **Libraries:** "
+    excerpt:       "<ul style='padding-inline-start:20px'><li>Predicted survival probability for passengers onboard the Titanic cruise ship.
+    </li></ul>
+**Libraries:** `Pandas`  `Seaborn`  `Scikit-Learn`"
     url:           "/portfolio/titanic"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 ---
-**Bio:** Data Scientist with a background in product development and test engineering
+[Click here to go direct to my Github profile](https://github.com/adin786)
 
-Hi, I'm a Mechanical Engineer with a software and data science specialism.  I have a background working with data in automotive fleet telematics and am currently developing a data transformation library for 3D scanning data.  My expertise is in data manipulation, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time and am seeking a Data Science role to apply my analytical skills to business problems.
+Hi, I'm a data-centric Engineer with advanced analytical and data science expertise.  I hold a Masters degree in Mechanical Engineering and Aeronautics with a focus in numerical analysis and simulation.  I have extensive experience in the automotive and energy sectors in product development, testing and strategic analysis functions.  
+
+My commercial projects have included: 
+- **Fleet telematics:** Deployment of a vehicle fleet telematics system including ETL pipeline, data processing, visualisation and dashboarding. 
+- **Battery health forecasting:** Regression model to forecast EV battery failure, and assess £10m+ warranty risk.
+- **Pipe inspection tools:** Developed data processing and reporting tools for 2x cutting edge subsea pipe test inspection products, laser bore scanning and 3D strain imaging.
+
+My technical expertise is in data mining, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time.  Some personal projects include:
 
 # Portfolio
-{% include feature_row type="left" %} 
-{% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row3" type="left" %}
-{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row type="left" %}
+
+<!-- # Professional Experience
+**Testing Project Engineer - Doosan Babcock, Glasgow** *(05/2019 - Present)*
+- Lead engineer and project manager for a €1.6mil. subsea client pipe reeling test programme.
+- Reported and presented weekly on technical status to client senior management.
+- Developed 2x new data processing pipelines for cutting-edge pipe 3D inspection products: laser scanning and stereo strain imaging.
+- Wrote automated plotting tools, doubling the team’s report writing throughput and drastically improving quality.
+- Established the team’s use of Git for version control, for developing robust and extensible data processing tools.
+- Completed 20+ technical reports issued to clients including data processing and visualisation.
+
+**Technical Strategy Analyst - Jaguar Land Rover, Warwickshire** *(04/2015 - 04/2019)*
+-	Supported Exec Leadership with business intelligence, competitor benchmarking and auto-industry trend analysis.
+-	Used regression to combine multiple EV sales projections into an aggregated forecast model.  This work proved essential in winning support for investment in UK-based EV manufacturing.
+-	Identified a gap in EV usage data and led the deployment of a streaming data pipeline for a fleet of electric taxis. This resulted in 500k+ miles of strategic EV data.  Stored in the Google cloud datalake to make available across corporate silos.
+-	Was a central contact for all stakeholders including Legal (GDPR), BI team (dashboards) as well as Exec Leadership.
+-	Developed an EV range prediction model for rapid benchmarking.
+-	Produced an Internal Comms video to show the company’s long-range vision of an autonomous, connected and electrified future.
+-	Delivered a prototype robotic premium EV charger in partnership with a start-up.
+
+**Vehicle Dynamics Engineer - Jaguar Land Rover, Warwickshire** *(09/2015 to 03/2017)*
+-	Steering control system development, test data-acquisition and analysis for products including XE, Evoque, I-PACE. 
+-	Responsible for maintaining and extending the functionality of a business critical Matlab code library for time-series analysis of vehicle test data, including automated processing, visualisation and metrics.
+-	Built a suite of Matlab-based graphical tools for automation, increasing team productivity and driving quality and consistency of steering feel across all product lines. -->
 
 # Data science tools
-- Languages: `Python` `Matlab` `SQL`
+- Languages: `Python` `SQL` `Matlab`
 - Databases: `SQLite` `BigQuery`
 - Machine learning: `sklearn`
-- Tex analytics: `nltk`
+- Tex analytics: `nltk` `spaCy`
 - Data manipulation: `pandas` `numpy` `dask` `scipy`
 - Visualisation: `matplotlib` `seaborn` `plotly` `Tableau`
-- 
 
 # Other skills and tools
 - Google Cloud: `BigQuery` `Datastudio`

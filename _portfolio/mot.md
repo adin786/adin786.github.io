@@ -8,6 +8,9 @@ header:
     - label: "View the Jupyter Notebook"
       url:   "https://nbviewer.jupyter.org/github/adin786/mot-data/blob/main/mot_analysis.ipynb"
   teaser:  /assets/images/mot-teaser.jpg
+toc:        true
+toc_label:  "Table of contents"
+toc_sticky: true
 permalink: /portfolio/mot
 ---
 # Exec summary
