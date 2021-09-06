@@ -18,17 +18,17 @@ feature_row:
     url:           "/portfolio/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
-  - image_path:    /assets/images/unsplash-gallery-image-2-th.jpg
-    alt:           "Cars at auction"
+  - image_path:    /assets/images/jobs.jpg
+    alt:           "Job market"
     title:         "Job market analysis (NLP)"
     excerpt:       "<ul style='padding-inline-start:20px'>
-    <li>Created a job title classifier using NLP techniques with job description text scraped from indeed.com.</li>
-    <li>Extracted the most commonly requested skills for various data job titles such as Data Scientist/Analyst/Engineer etc.</li>
+    <li>Created an NLP job title classifier with data scraped from indeed.com.</li>
     <li>Automation of job titling could boost recruitment efficiency and better reach the most suitable candidates.</li>
-    <li>Forms the basis of a future, more generalised “job-advert-checking” tool to aid candidates in their job search.</li>
+    <li>Extracted 'skill tags' for each role (Python, Cloud, Machine Learning etc).</li>
+    <li><a href='https://share.streamlit.io/adin786/jobs-analysis/main/app/app_deploy.py'>Deployed a web-app</a> using Streamlit, allowing anyone to classify a job as 'Data Scientist', 'Data Analyst', or 'Data Engineer'.</li>
     </ul>
-    **Libraries:** `Requests` `BeautifulSoup4` `Pandas` `NTLK` `spaCy` `Seaborn` `Scikit-learn` `Tableau`"
-    url:           "/portfolio/used-cars"
+    **Libraries:** `Requests` `BeautifulSoup4` `Pandas` `NTLK` `Seaborn` `Scikit-learn` `Streamlit`"
+    url:           "/portfolio/jobs"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
   - image_path:    /assets/images/mot-teaser.jpg
@@ -50,11 +50,11 @@ feature_row:
 ---
 [Click here to go direct to my Github profile](https://github.com/adin786)
 
-Hi, I'm a data-centric Engineer with advanced analytical and data science expertise.  I hold a Masters degree in Mechanical Engineering and Aeronautics with a focus in numerical analysis and simulation.  I have extensive experience in the automotive and energy sectors in product development, testing and strategic analysis functions.  
+Hi, I'm a Data Scientist with an Product Development and Strategic analysis background.  I hold a Masters degree in Mechanical Engineering and Aeronautics with a focus in numerical analysis and simulation.  I have extensive experience in the automotive and energy sectors in product development, testing and strategic insight functions.  
 
 My commercial projects have included: 
 - **Fleet telematics:** Deployment of a vehicle fleet telematics system including ETL pipeline, data processing, visualisation and dashboarding. 
-- **Battery health forecasting:** Regression model to forecast EV battery failure, and assess £10m+ warranty risk.
+- **Battery health forecasting:** Regression model to forecast EV battery failure, and add data-driven insight to support >£10mil warranty analysis.
 - **Pipe inspection tools:** Developed data processing and reporting tools for 2x cutting edge subsea pipe test inspection products, laser bore scanning and 3D strain imaging.
 
 My technical expertise is in data mining, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time.  Some personal projects include:
@@ -91,7 +91,7 @@ My technical expertise is in data mining, visualisation and software development
 - Machine learning: `sklearn`
 - Tex analytics: `nltk` `spaCy`
 - Data manipulation: `pandas` `numpy` `dask` `scipy`
-- Visualisation: `matplotlib` `seaborn` `plotly` `Tableau`
+- Visualisation: `matplotlib` `seaborn` `plotly` `Tableau` `streamlit`
 
 # Other skills and tools
 - Google Cloud: `BigQuery` `Datastudio`

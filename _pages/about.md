@@ -11,7 +11,7 @@ author_profile: true
 - Databases: `SQLite` `BigQuery`
 - Machine learning: `sklearn`
 - Data manipulation: `pandas` `numpy` `dask` `scipy`
-- Visualisation: `matplotlib` `seaborn` `plotly` `Tableau`
+- Visualisation: `matplotlib` `seaborn` `plotly` `Tableau` `Streamlit`
 
 # Other skills and tools
 - Google Cloud: `BigQuery` `Datastudio`
