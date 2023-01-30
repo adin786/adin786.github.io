@@ -13,7 +13,7 @@ header:
 toc:        true
 toc_label:  "Table of contents"
 toc_sticky: true
-permalink: /portfolio/jobs
+permalink: /projects/jobs
 ---
 While looking at job websites I noticed how the skills and responsibilities of different data-disciplines cross over and blur together. 
 

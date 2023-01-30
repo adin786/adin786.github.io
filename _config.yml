@@ -4,7 +4,6 @@ email: adin786@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Placeholder...
 github_username: adin786
-search: true
 
 # Build settings
 markdown: kramdown
@@ -19,13 +18,13 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - _portfolio
+  - _projects
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
+  # - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
@@ -33,20 +32,14 @@ plugins:
 author:
   name   : "Azam Din"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Scientist with a background in product development and strategic analysis"
+  bio    : "Experienced Data Scientist in commercial R&D, NLP, voice.  Passionate about engineering, with strengths in cloud, data engineering, MLOps."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://adin786.github.io"
-    # - label: "Twitter"
-      # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/adin786"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/azam-din"
+      url: "https://linkedin.com/in/azamdin"
 
 footer:
   links:
@@ -79,8 +72,8 @@ defaults:
       share: false
   # _portfolio
   - scope:
-      path: "_portfolio"
-      type: portfolio
+      path: "_projects"
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -95,7 +88,7 @@ tag_archive:
   path: /tags/
   
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
 

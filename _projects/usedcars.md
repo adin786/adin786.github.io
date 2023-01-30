@@ -13,7 +13,7 @@ header:
 toc:        true
 toc_label:  "Table of contents"
 toc_sticky: true
-permalink: /portfolio/used-cars
+permalink: /projects/used-cars
 ---
 I've been looking to sell my car and struggled to decide on a fair selling price.  I decided to scrape some data from [Autotrader](https://www.autotrader.co.uk/) and analyse the prices of similarly spec'd cars to build a valuation model.  The project quite successful with good agreement between the model's price estimate, and existing online valuation tools.
 

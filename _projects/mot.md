@@ -11,7 +11,7 @@ header:
 toc:        true
 toc_label:  "Table of contents"
 toc_sticky: true
-permalink: /portfolio/mot
+permalink: /projects/mot
 ---
 # Exec summary
 - Built a local SQLite database over 3Gb and 37mil records.

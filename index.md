@@ -15,9 +15,10 @@ feature_row:
     <li>The final result valued my car within £200 of Autotrader's own recommended selling price.</li>
     </ul>
     **Tools:** `Python` `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Scikit-learn`"
-    url:           "/portfolio/used-cars"
+    url:           "/projects/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
+
   - image_path:    /assets/images/jobs.jpg
     alt:           "Job market"
     title:         "Job market analysis (NLP)"
@@ -28,23 +29,26 @@ feature_row:
     <li><a href='https://share.streamlit.io/adin786/jobs-analysis/main/app/app_deploy.py'>Deployed a web-app</a> using Streamlit, allowing anyone to classify a job as 'Data Scientist', 'Data Analyst', or 'Data Engineer'.</li>
     </ul>
     **Libraries:** `Requests` `BeautifulSoup4` `Pandas` `NTLK` `Seaborn` `Scikit-learn` `Streamlit`"
-    url:           "/portfolio/jobs"
+    url:           "/projects/jobs"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
+
   - image_path:    /assets/images/mot-teaser.jpg
     alt:           "mot inspection"
     title:         "MOT data analysis"
     excerpt:       "<ul style='padding-inline-start:20px'><li>Analysed 30mi MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.</li></ul>
 **Libraries:** `SQLite` `Pandas` `Seaborn` `Scikit-Learn`"
-    url:           "/portfolio/mot"
+    url:           "/projects/mot"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
+
   - image_path:    /assets/images/titanic-teaser.jpg
-    title:         "Titanic survivor prediction"
-    excerpt:       "<ul style='padding-inline-start:20px'><li>Predicted survival probability for passengers onboard the Titanic cruise ship.
-    </li></ul>
-**Libraries:** `Pandas`  `Seaborn`  `Scikit-Learn`"
-    url:           "/portfolio/titanic"
+    title:         "Energy Demand Forecasting"
+    excerpt:       "<ul style='padding-inline-start:20px'>
+    <li>Predicted survival probability for passengers onboard the Titanic cruise ship.</li>
+    </ul>
+**Libraries:** ..."
+    url:           "/projects/energy_forecast"
     btn_label:     "Read More"
     btn_class:     "btn--inverse"
 ---
@@ -59,7 +63,7 @@ My commercial projects have included:
 
 My technical expertise is in data mining, visualisation and software development (Python, Matlab etc).  I work on Data analytics and machine learning projects in my free time.  Some personal projects include:
 
-# Portfolio
+# Projects
 {% include feature_row type="left" %}
 
 <!-- # Professional Experience
