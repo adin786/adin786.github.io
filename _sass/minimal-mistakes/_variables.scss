@@ -59,16 +59,11 @@ $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
-$lighter-gray: mix(#fff, $gray, 80%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
-/* $code-background-color: #cfdfe6 !default; */
-/* default is #fafafa */
-/* $code-background-color-dark: $light-gray !default; */
-/* Azam added this below */
-$code-background-color: mix(#000, $background-color, 8%) !default;
-$code-background-color-dark: mix(#000, $background-color, 12%) !default;
-/* Azam added this above */
+$code-background-color: #fafafa !default;
+$code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
