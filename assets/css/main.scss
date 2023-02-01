@@ -5,5 +5,43 @@ search: false
 
 @charset "utf-8";
 
+img.custom-image {
+    width: 25%;
+}
+
+.center-text {
+   text-align: center;
+}
+
+// div.feature__item--right .archive__item-excerpt .bottom-pad {
+//     padding-bottom: 2em;
+// }
+
+.left-text {
+    text-align: left;
+}
+
+h2.archive__item-title {
+    font-size: 1.0em;
+}
+
+
+.azam-h1 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+.azam-h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f2f3f3;
+}
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

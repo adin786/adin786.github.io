@@ -1,40 +1,41 @@
 ---
 title: "Home"
-layout: single
+layout: splash
 permalink: /
-classes: wide
-feature_row:
+# classes: wide
+centre_header:
+  - title:         "Azam Din"
+    excerpt:       "Data Scientist"
+    image_path:    /assets/images/bio-circle.png
+projects_1:
   - image_path:    /assets/images/used-cars-teaser.jpg
-    alt:           "Cars at auction"
-    title:         "Used car pricing analysis"
-    excerpt:       "Created a used car pricing model. Scraped 1000+ ads. Priced my own car within £200 of Autotrader's valuation.<br>
-    **Tools:** `Python` `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Scikit-learn`"
+    title:         "Energy Forecast"
+    excerpt:       "Built a CI/CD pipeline for lambda-based ML inference
+    <br><br><br><br><br>"
     url:           "/projects/used-cars"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
-
+    btn_class:     "btn--primary"
+  - image_path:    /assets/images/used-cars-teaser.jpg
+    title:         "Used car pricing model"
+    excerpt:       "Created a used car pricing model. Scraped 1000+ ads. Priced my own car within £200 of Autotrader's valuation.<br>
+    `Python` `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Sklearn`"
+    url:           "/projects/used-cars"
+    btn_label:     "Read More"
+    btn_class:     "btn--primary"
   - image_path:    /assets/images/jobs.jpg
-    alt:           "Job Title NLP"
     title:         "Job Titles NLP"
-    excerpt:       "<ul style='padding-inline-start:20px'>
-    <li>Created an NLP job title classifier with data scraped from indeed.com.</li>
-    <li>Automation of job titling could boost recruitment efficiency and better reach the most suitable candidates.</li>
-    <li>Extracted 'skill tags' for each role (Python, Cloud, Machine Learning etc).</li>
-    <li>Deployed a web-app</a> using Streamlit, allowing anyone to classify a job as 'Data Scientist', 'Data Analyst', or 'Data Engineer'.</li>
-    </ul>
-    **Libraries:** `Requests` `BeautifulSoup4` `Pandas` `NTLK` `Seaborn` `Scikit-learn` `Streamlit`"
+    excerpt:       "Created a job title classifier for data jobs scraped from a job board.  Analysed keywords for Data Scientist roles etc.  Deployed a Streamlit dashboard<br> `Requests` `BeautifulSoup4` `Pandas` `NTLK` `Seaborn` `Scikit-learn` `Streamlit`"
     url:           "/projects/jobs"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
-
+    btn_class:     "btn--primary"
+projects_2:
   - image_path:    /assets/images/mot-teaser.jpg
-    alt:           "mot inspection"
     title:         "MOT data analysis"
-    excerpt:       "<ul style='padding-inline-start:20px'><li>Analysed 30mi MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.</li></ul>
-**Libraries:** `SQLite` `Pandas` `Seaborn` `Scikit-Learn`"
+    excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.<br>
+    `SQLite` `Pandas` `Seaborn` `Scikit-Learn`"
     url:           "/projects/mot"
     btn_label:     "Read More"
-    btn_class:     "btn--inverse"
+    btn_class:     "btn--primary"
 
 feature_row_:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -49,23 +50,46 @@ feature_row_:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+experience_1:
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    title: "Research Data Scientist"
+    excerpt: "<i>Bigtincan, Jan 2022 - Current</i>
+    <br>What did I do at Bigtincan..."
+experience_2:
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    title: "<span style='text-align:left'>Project Engineer</span>"
+    excerpt: "<span style='padding-bottom:1em' class='bottom-pad'><i>Doosan Babcock, May 2019 - Dec 2021</i></span>
+    <br>What did I do at Doosan..."
+experience_3:
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    title: "Technical Strategy Analyst"
+    excerpt: "<span style='padding-bottom:1em' class='bottom-pad'><i>Jaguar Land Rover, Apr 2017 - Apr 2019</i></span>
+    <br>What did I do at JLR..."
+---
+<br>
+![image-center](assets/images/bio-circle.png){: .align-center .custom-image}
+
+<h1>Azam Din</h1>{: .center-text .azam-h1}
+<p>Data Scientist & ML Engineer</p>{: .center-text .azam-h2}
+
+I am an experienced Data Scientist specialising in NLP, conversational AI and signal processing.  My core strengths are in engineering robust ML/data pipelines, cloud infrastructure and MLOps tooling & processes.
+
+My current role is as a Research Data Scientist for a SaaS offering in the Sales Enablement space where I am building text processing pipelines (NLP), voice feature extractors and content recommenders. As a newly established data science team I am also responsible for maturing the companies ML tooling and processes and I strive to upskill and mentor my fellow Data Scientists to improve engineering quality and standards.
+
+With my MEng degree in Mechanical & Aerospace Engineering, I specialised early in my career instrumentation and data acquisition systems.  I have led wide range of analytical projects across various industries including automotive, oil & gas and IT. I am passionate about automating complex processes and building novel machine learning solutions.
 
 ---
-Data Scientist specialising in commercial Research, NLP, conversational AI, cloud deployment and MLOps workflows.
 
-I hold an MEng in Mechanical Engineering and have led analytical projects across industries including automotive, oil & gas and sales enablement.
-
-My commercial projects have included:
-- **Fleet telematics demonstrator:** Identified a data-gap and developed an analytics data pipeline for Jaguar Land Rover's first electric taxi fleet.
-- **Pipe inspection tools:** Developed automated processing and reporting tools for laser+vision based pipe inspection tools.
-
----
 # Personal projects
-{% include feature_row id="feature_row" %}
+{% include feature_row id="projects_1" %}
 
+{% include feature_row id="projects_2" %}
 
 # Experience
+{% include feature_row id="experience_1" type="left" %}{: .custom-image2}
 
-{% include feature_row id="feature_row_" %}
+{% include feature_row id="experience_2" type="left" %}
+
+{% include feature_row id="experience_3" type="left" %}
 
 # Skills
