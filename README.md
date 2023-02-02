@@ -21,3 +21,8 @@ Serve the jekyll site on http://localhost:4000.  Note, I had some issues with fi
 ```bash
 bundle exec jekyll serve --force-polling
 ```
+
+# Formatting 
+```text
+Data *Scientist*{: style="color: red"}.
+```

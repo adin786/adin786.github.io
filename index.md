@@ -76,7 +76,7 @@ I am an experienced Data Scientist specialising in NLP, conversational AI and si
 
 My current role is as a Research Data Scientist for a SaaS offering in the Sales Enablement space where I am building text processing pipelines (NLP), voice feature extractors and content recommenders. As a newly established data science team I am also responsible for maturing the companies ML tooling and processes and I strive to upskill and mentor my fellow Data Scientists to improve engineering quality and standards.
 
-With my MEng degree in Mechanical & Aerospace Engineering, I specialised early in my career instrumentation and data acquisition systems.  I have led wide range of analytical projects across various industries including automotive, oil & gas and IT. I am passionate about automating complex processes and building novel machine learning solutions.
+With my MEng degree in Mechanical & Aerospace Engineering I specialised in instrumentation and data acquisition systems.  I have led a wide range of analytical projects across various industries including automotive, oil & gas and IT. I am passionate about automating complex processes and building novel machine learning solutions.
 
 ---
 
@@ -91,5 +91,24 @@ With my MEng degree in Mechanical & Aerospace Engineering, I specialised early i
 {% include feature_row id="experience_2" type="left" %}
 
 {% include feature_row id="experience_3" type="left" %}
+
+---
+
+# Experience
+
+**Data Scientist - R&D**<br>
+*Bigtincan | SaaS Sales Enablement platform*
+{: .text-center}
+
+**Data Scientist - R&D**<br>
+*Bigtincan | SaaS Sales Enablement platform*
+{: .text-center}
+
+<span>|</span>{: style="font-weight: 200"}
+{: .text-center}
+
+**Data Scientist - R&D**<br>
+*Bigtincan |SaaS Sales Enablement platform*
+{: .text-center}
 
 # Skills
