@@ -42,6 +42,43 @@ h2.archive__item-title {
     border-bottom: 1px solid #f2f3f3;
 }
 
+.experience-bullets {
+    padding-left: 10em;
+    padding-right: 10em;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.experience-logo {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* For Mobile */
+@media screen and (max-width: 600px) {
+    .experience-bullets {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .experience-logo {
+        height: 40px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .experience-bullets {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .experience-logo {
+        height: 45px;
+    }
+}
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

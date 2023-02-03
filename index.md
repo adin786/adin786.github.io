@@ -11,20 +11,20 @@ projects_1:
   - image_path:    /assets/images/used-cars-teaser.jpg
     title:         "Energy Forecast"
     excerpt:       "Built a CI/CD pipeline for lambda-based ML inference
-    <br><br><br><br><br>"
+    <br>`Terraform` `AWS-Lambda` `sktime` `mlflow` `DVC` `streamlit` `Github-actions` `Docker` `pre-commit` `pytest`"
     url:           "/projects/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
   - image_path:    /assets/images/used-cars-teaser.jpg
     title:         "Used car pricing model"
     excerpt:       "Created a used car pricing model. Scraped 1000+ ads. Priced my own car within £200 of Autotrader's valuation.<br>
-    `Python` `Pandas` `NumPy` `Requests` `BeautifulSoup4` `Matplotlib` `Seaborn` `Sklearn`"
+    `python` `pandas` `numpy` `requests` `BeautifulSoup4` `matplotlib` `seaborn` `sklearn`"
     url:           "/projects/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
   - image_path:    /assets/images/jobs.jpg
     title:         "Job Titles NLP"
-    excerpt:       "Created a job title classifier for data jobs scraped from a job board.  Analysed keywords for Data Scientist roles etc.  Deployed a Streamlit dashboard<br> `Requests` `BeautifulSoup4` `Pandas` `NTLK` `Seaborn` `Scikit-learn` `Streamlit`"
+    excerpt:       "Created a job title classifier for data jobs scraped from a job board.  Analysed keywords for Data Scientist roles etc.  Deployed a Streamlit dashboard<br> `requests` `BeautifulSoup4` `pandas` `nltk` `spacy` `seaborn` `sklearn` `streamlit`"
     url:           "/projects/jobs"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
@@ -32,7 +32,7 @@ projects_2:
   - image_path:    /assets/images/mot-teaser.jpg
     title:         "MOT data analysis"
     excerpt:       "Analysed 30mi MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.<br>
-    `SQLite` `Pandas` `Seaborn` `Scikit-Learn`"
+    `sqlite` `pandas` `seaborn` `skLearn`"
     url:           "/projects/mot"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
@@ -56,21 +56,14 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 {% include feature_row id="projects_1" %}
 
 {% include feature_row id="projects_2" %}
-<!-- # Experience
-{% include feature_row id="experience_1" type="left" %}{: .custom-image2}
 
-{% include feature_row id="experience_2" type="left" %}
-
-{% include feature_row id="experience_3" type="left" %}
-
---- -->
 
 # Experience
 
 ![image-center](/assets/images/btc-logo-50.png){: .align-center}  
 
 **R&D Data Scientist**<br>
-*Bigtincan, Sales Enablement* &nbsp;&nbsp; - &nbsp;&nbsp; *01/2022-today*
+*Bigtincan, Sales Enablement* - *01/2022-today*
 {: .text-center style="font-weight: 200"}
 
 - Developed MFCC-based voice features for emotion recognition, replacinglegacy heuristic techniques. Resulted in 75% lowertime-to-market for new languages and improved correlation metrics by 10%.
@@ -80,15 +73,15 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 - Built & managedacontainerisedProdigy data annotation server, including configuring and maintaining cloud instances (EC2).
 - Developed Large Language Model (LLM) assisted annotation workflows.
 - Responsible for the team’s data engineering and ingest workflows including data access, SQLqueries, S3storage.  
-{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+{: .experience-bullets}
 
 <span>⭡</span>
 {: style="font-weight: 200; font-size: 1.5em" .text-center}
 
-![image-center](/assets/images/doosan-logo-50.png){: .align-center}  
+![image-center](/assets/images/doosan-logo-50.png){: .experience-logo}  
 
 **Project Engineer**<br>
-*Doosan Babcock, Engineering Consultancy* &nbsp;&nbsp; - &nbsp;&nbsp; *05/2019-12/2021*
+*Doosan Babcock* - *05/2019-12/2021*
 {: .text-center style="font-weight: 200"}
 
 - Lead engineer and client-facing project manager for a €1.6mil. subsea testing contract. 
@@ -97,7 +90,7 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 - Automated visualisation and report generation, doubling the team’s documentation throughput. 
 - Established the team’s use of Git version control and developed processes for robust and extensible tool development. 
 - Authored 20+ technical reports issued to clients including data processing and visualisations. 
-{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+{: .experience-bullets}
 
 <span>⭡</span>
 {: style="font-weight: 200; font-size: 1.5em; padding: 0" .text-center}
@@ -105,7 +98,7 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 ![image-center](/assets/images/jlr-logo-50.png){: .align-center}  
 
 **Technical Strategy Analyst**<br>
-*Jaguar Land Rover, Automotive* &nbsp;&nbsp; - &nbsp;&nbsp; *04/2017-04/2019*
+*Jaguar Land Rover* - *04/2017-04/2019*
 {: .text-center style="font-weight: 200"}
 
 - Reported to Directors with competitor & market intelligence, benchmarking and motor-industry trend analysis. 
@@ -115,7 +108,7 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 - Created a regression model to forecast EV battery failure, enabling leadership to assess a potential £10m+ warranty risk. 
 - Recorded and produced an Internal Comms video on the company’s strategic vision for Autonomy, Connectivity and Electrification. 
 - Key contact for a technology partnership with a start-up, delivered a PoC prototype for a robotic EV charger. 
-{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+{: .experience-bullets}
 
 <span>⭡</span>
 {: style="font-weight: 200; font-size: 1.5em; padding: 0" .text-center}
@@ -123,11 +116,10 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 ![image-center](/assets/images/jlr-logo-50.png){: .align-center}  
 
 **Vehicle Dynamics Engineer**<br>
-*Jaguar Land Rover, Automotive* &nbsp;&nbsp; - &nbsp;&nbsp; *09/2015-03/2017*
+*Jaguar Land Rover* - *09/2015-03/2017*
 {: .text-center style="font-weight: 200"}
 
-- bla bla bla
-- bla bla bla
-{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+- Placeholder
+{: .experience-bullets}
 
 # Skills
