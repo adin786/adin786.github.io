@@ -37,34 +37,6 @@ projects_2:
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
-feature_row_:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-experience_1:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    title: "Research Data Scientist"
-    excerpt: "<i>Bigtincan, Jan 2022 - Current</i>
-    <br>What did I do at Bigtincan..."
-experience_2:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    title: "<span style='text-align:left'>Project Engineer</span>"
-    excerpt: "<span style='padding-bottom:1em' class='bottom-pad'><i>Doosan Babcock, May 2019 - Dec 2021</i></span>
-    <br>What did I do at Doosan..."
-experience_3:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    title: "Technical Strategy Analyst"
-    excerpt: "<span style='padding-bottom:1em' class='bottom-pad'><i>Jaguar Land Rover, Apr 2017 - Apr 2019</i></span>
-    <br>What did I do at JLR..."
 ---
 <br>
 ![image-center](assets/images/bio-circle.png){: .align-center .custom-image}
@@ -84,31 +56,78 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 {% include feature_row id="projects_1" %}
 
 {% include feature_row id="projects_2" %}
-
-# Experience
+<!-- # Experience
 {% include feature_row id="experience_1" type="left" %}{: .custom-image2}
 
 {% include feature_row id="experience_2" type="left" %}
 
 {% include feature_row id="experience_3" type="left" %}
 
----
+--- -->
 
 # Experience
 
-**Data Scientist - R&D**<br>
-*Bigtincan | SaaS Sales Enablement platform*
-{: .text-center}
+![image-center](/assets/images/btc-logo-50.png){: .align-center}  
 
-**Data Scientist - R&D**<br>
-*Bigtincan | SaaS Sales Enablement platform*
-{: .text-center}
+**R&D Data Scientist**<br>
+*Bigtincan, Sales Enablement* &nbsp;&nbsp; - &nbsp;&nbsp; *01/2022-today*
+{: .text-center style="font-weight: 200"}
 
-<span>|</span>{: style="font-weight: 200"}
-{: .text-center}
+- Developed MFCC-based voice features for emotion recognition, replacinglegacy heuristic techniques. Resulted in 75% lowertime-to-market for new languages and improved correlation metrics by 10%.
+- Deployed demo apps with EC2+Docker for a new NLP product (entity recognition, classification, sentiment analysis).
+- Introduced and standardised MLOpstoolingand practises includingGit, MLFlow, DVC, Unit-Testing, Docker, AWS, Databricks.
+- Developed a solution for online topicmodellingfor questions,usedsentence embeddingsandclustering.
+- Built & managedacontainerisedProdigy data annotation server, including configuring and maintaining cloud instances (EC2).
+- Developed Large Language Model (LLM) assisted annotation workflows.
+- Responsible for the team’s data engineering and ingest workflows including data access, SQLqueries, S3storage.  
+{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
 
-**Data Scientist - R&D**<br>
-*Bigtincan |SaaS Sales Enablement platform*
-{: .text-center}
+<span>⭡</span>
+{: style="font-weight: 200; font-size: 1.5em" .text-center}
+
+![image-center](/assets/images/doosan-logo-50.png){: .align-center}  
+
+**Project Engineer**<br>
+*Doosan Babcock, Engineering Consultancy* &nbsp;&nbsp; - &nbsp;&nbsp; *05/2019-12/2021*
+{: .text-center style="font-weight: 200"}
+
+- Lead engineer and client-facing project manager for a €1.6mil. subsea testing contract. 
+- Reported and presented technical status to client & senior management, explaining technical topics to a diverse audience. 
+- Used pandas to build an efficient data extraction and processing pipeline for 3D laser scanning and optical strain mapping. 
+- Automated visualisation and report generation, doubling the team’s documentation throughput. 
+- Established the team’s use of Git version control and developed processes for robust and extensible tool development. 
+- Authored 20+ technical reports issued to clients including data processing and visualisations. 
+{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+
+<span>⭡</span>
+{: style="font-weight: 200; font-size: 1.5em; padding: 0" .text-center}
+
+![image-center](/assets/images/jlr-logo-50.png){: .align-center}  
+
+**Technical Strategy Analyst**<br>
+*Jaguar Land Rover, Automotive* &nbsp;&nbsp; - &nbsp;&nbsp; *04/2017-04/2019*
+{: .text-center style="font-weight: 200"}
+
+- Reported to Directors with competitor & market intelligence, benchmarking and motor-industry trend analysis. 
+- Built an aggregated forecast for EV market growth.  Supported the business case for investing in a UK battery factory. 
+- Proposed and later owned for development of a new strategically valuable EV fleet telematics data ingest pipeline (ETL). 
+- Gained Exec sponsorship stakeholders in Legal (GDPR), BI team (Tableau dashboarding support). 
+- Created a regression model to forecast EV battery failure, enabling leadership to assess a potential £10m+ warranty risk. 
+- Recorded and produced an Internal Comms video on the company’s strategic vision for Autonomy, Connectivity and Electrification. 
+- Key contact for a technology partnership with a start-up, delivered a PoC prototype for a robotic EV charger. 
+{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
+
+<span>⭡</span>
+{: style="font-weight: 200; font-size: 1.5em; padding: 0" .text-center}
+
+![image-center](/assets/images/jlr-logo-50.png){: .align-center}  
+
+**Vehicle Dynamics Engineer**<br>
+*Jaguar Land Rover, Automotive* &nbsp;&nbsp; - &nbsp;&nbsp; *09/2015-03/2017*
+{: .text-center style="font-weight: 200"}
+
+- bla bla bla
+- bla bla bla
+{: style="padding-left: 10em; padding-right: 10em; font-weight: 300; font-size: 0.8em"}
 
 # Skills
