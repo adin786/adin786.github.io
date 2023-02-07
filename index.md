@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Azam Din"
 layout: splash
 permalink: /
 projects_1:
@@ -128,3 +128,4 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 ---
 
 # Skills
+Placeholder
