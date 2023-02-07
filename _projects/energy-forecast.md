@@ -1,19 +1,19 @@
 ---
 title: "Energy Demand Forecasting"
-excerpt: "Forecasting total UK energy demand, with interactive dashboard, CI/CD, Lambda inference."
+classes: wide
+excerpt: "Built a CI/CD pipeline for timeseries forecasting + deployment"
 header:
-  # overlay_image: /assets/images/titanic-header.jpg
+  overlay_image: /assets/images/energy.jpg
+  overlay_filter:  0.5
   actions:
-    - label: "View the Jupyter Notebook"
-      url: "https://nbviewer.jupyter.org/github/adin786/ad-titanic/blob/main/titanic.ipynb"
-  teaser:  /assets/images/titanic-teaser.jpg
-toc:        true
+    - label: "Github repo"
+      url: "https://github.com/adin786/energy_forecast"
+  teaser:  /assets/images/energy.jpg
+toc:        false
 toc_label:  "Table of contents"
 toc_sticky: true
-permalink: /projects/energy_forecast 
+permalink: /projects/energy-forecast 
 ---
-
-## Summary
   
 In this project I demonstrate a simple architecture for serverless ML model deployment, building in MLOps principles such as experiment tracking, data versioning, CI/CD and monitoring.
 
@@ -39,9 +39,9 @@ The focus is on **minimal the time/effort to go from experimentation to a deploy
 
 ## Architecture diagram
 
-![Placeholder for architecture diagram](assets/diagrams/arch_diagram.drawio.png)
+![Architecture diagram](energy-project\arch_diagram.drawio.png){: .img-border}
 
---- 
+---
 
 # More Details
 

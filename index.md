@@ -2,32 +2,32 @@
 title: "Home"
 layout: splash
 permalink: /
-# classes: wide
-centre_header:
-  - title:         "Azam Din"
-    excerpt:       "Data Scientist"
-    image_path:    /assets/images/bio-circle.png
 projects_1:
-  - image_path:    /assets/images/used-cars-teaser.jpg
-    title:         "Energy Forecast"
-    excerpt:       "Built a CI/CD pipeline for lambda-based ML inference
-    <br>`Terraform` `AWS-Lambda` `sktime` `mlflow` `DVC` `streamlit` `Github-actions` `Docker` `pre-commit` `pytest`"
-    url:           "/projects/used-cars"
+  - image_path:    /assets/images/energy-teaser2.jpg
+    title:         "Energy Forecasting"
+    excerpt:       "<span style='min-height: 10em'>Built a CI/CD pipeline for timeseries forecasting + deployment<br>
+    `Terraform` `AWS lambda` `sktime` `mlflow` `dvc` `streamlit` `github-actions` `docker` `pytest`</span>"
+    # url:           "/projects/energy-forecast"
+    url:           "https://github.com/adin786/energy_forecast"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
-  - image_path:    /assets/images/used-cars-teaser.jpg
-    title:         "Used car pricing model"
-    excerpt:       "Created a used car pricing model. Scraped 1000+ ads. Priced my own car within £200 of Autotrader's valuation.<br>
+
+  - image_path:    /assets/images/auto-trader-teaser.jpg
+    title:         "Used Car Values"
+    excerpt:       "Web scraped auto trader adverts and predicted valuation of my own car<br>
     `python` `pandas` `numpy` `requests` `BeautifulSoup4` `matplotlib` `seaborn` `sklearn`"
     url:           "/projects/used-cars"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
+
   - image_path:    /assets/images/jobs.jpg
-    title:         "Job Titles NLP"
-    excerpt:       "Created a job title classifier for data jobs scraped from a job board.  Analysed keywords for Data Scientist roles etc.  Deployed a Streamlit dashboard<br> `requests` `BeautifulSoup4` `pandas` `nltk` `spacy` `seaborn` `sklearn` `streamlit`"
+    title:         "Job Description NLP"
+    excerpt:       "Interactive job description classifier for data jobs. Web scraping and nlp.<br>
+    `requests` `BeautifulSoup4` `pandas` `nltk` `spacy` `seaborn` `sklearn` `streamlit`"
     url:           "/projects/jobs"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
+
 projects_2:
   - image_path:    /assets/images/mot-teaser.jpg
     title:         "MOT data analysis"
@@ -39,16 +39,18 @@ projects_2:
 
 ---
 <br>
-![image-center](assets/images/bio-circle.png){: .align-center .custom-image}
+![image-center](assets/images/bio-circle.png){: .bio-image}
 
-<h1>Azam Din</h1>{: .center-text .azam-h1}
-<p>Data Scientist & ML Engineer</p>{: .center-text .azam-h2}
+<h1>Azam Din</h1>{: .text-center .text-h1}
+<p>Data Scientist & ML Engineer</p>{: .text-center .text-h2}
 
 I am an experienced Data Scientist specialising in NLP, conversational AI and signal processing.  My core strengths are in engineering robust ML/data pipelines, cloud infrastructure and MLOps tooling & processes.
 
 My current role is as a Research Data Scientist for a SaaS offering in the Sales Enablement space where I am building text processing pipelines (NLP), voice feature extractors and content recommenders. As a newly established data science team I am also responsible for maturing the companies ML tooling and processes and I strive to upskill and mentor my fellow Data Scientists to improve engineering quality and standards.
 
 With my MEng degree in Mechanical & Aerospace Engineering I specialised in instrumentation and data acquisition systems.  I have led a wide range of analytical projects across various industries including automotive, oil & gas and IT. I am passionate about automating complex processes and building novel machine learning solutions.
+
+<i><a href="#personal-projects">Projects</a> \| <a href="#experience">Experience</a> \| <a href="#skills">Skills</a></i>
 
 ---
 
@@ -57,6 +59,7 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 
 {% include feature_row id="projects_2" %}
 
+---
 
 # Experience
 
@@ -121,5 +124,7 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 
 - Placeholder
 {: .experience-bullets}
+
+---
 
 # Skills

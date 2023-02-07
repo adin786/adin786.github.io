@@ -1,6 +1,7 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
+  - title:  "LinkedIn"
+    url:    "https://linkedin.com/in/azamdin"
+
+  - title:  "Github"
+    url:    "https://github.com/adin786"
 

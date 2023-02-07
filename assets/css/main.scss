@@ -5,33 +5,32 @@ search: false
 
 @charset "utf-8";
 
-img.custom-image {
-    width: 25%;
+.bio-image {
+    height: auto;
+    width: 18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.center-text {
+.img-border {
+    border: 1px solid #000000;
+}
+
+.text-center {
    text-align: center;
 }
 
-// div.feature__item--right .archive__item-excerpt .bottom-pad {
-//     padding-bottom: 2em;
-// }
-
-.left-text {
+.text-left {
     text-align: left;
 }
 
-h2.archive__item-title {
-    font-size: 1.0em;
-}
-
-
-.azam-h1 {
+.text-h1 {
     font-size: 2em;
     margin-bottom: 0em;
 }
 
-.azam-h2 {
+.text-h2 {
     font-weight: 300;
     font-style: italic;
     font-size: 1.5em;
@@ -57,18 +56,19 @@ h2.archive__item-title {
     margin-right: auto;
 }
 
-/* For Mobile */
-@media screen and (max-width: 600px) {
-    .experience-bullets {
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-    .experience-logo {
-        height: 40px;
-    }
+.btn-bottom {
+    position:absolute;
+    bottom: 0;
+    left: 0;
 }
 
-/* For Tablets */
+// .btn--primary {
+//     position:absolute;
+//     bottom: 0;
+//     left: 0;   
+// }
+
+// For Tablets
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     .experience-bullets {
         padding-left: 4em;
@@ -77,8 +77,34 @@ h2.archive__item-title {
     .experience-logo {
         height: 45px;
     }
+    .bio-image{
+        width: 25%;
+    }
+}
+
+// For Mobile
+@media screen and (max-width: 600px) {
+    .experience-bullets {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .experience-logo {
+        height: 40px;
+    }
+    .bio-image{
+        width: 35%;
+    }
 }
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Customising existing elements
+h2.archive__item-title {
+    font-size: 1.0em;
+}
+
+hr {
+    border: 1px solid #d0d0d0
+}
