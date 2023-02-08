@@ -31,21 +31,35 @@ search: false
 }
 
 .text-h2 {
-    font-weight: 300;
+    font-weight: normal;
     font-style: italic;
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1.5em;
     padding-top: 0.5em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #f2f3f3;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.experience-heading {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.experience-arrow {
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 0;
+    text-align: center;
 }
 
 .experience-bullets {
-    padding-left: 10em;
-    padding-right: 10em;
-    font-weight: 300;
+    padding-left: 6em;
+    padding-right: 6em;
+    font-weight: normal;
     font-size: 0.8em;
+    list-style-type: circle;
 }
 
 .experience-logo {
@@ -61,12 +75,6 @@ search: false
     bottom: 0;
     left: 0;
 }
-
-// .btn--primary {
-//     position:absolute;
-//     bottom: 0;
-//     left: 0;   
-// }
 
 // For Tablets
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -96,7 +104,6 @@ search: false
     }
 }
 
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -107,4 +114,38 @@ h2.archive__item-title {
 
 hr {
     border: 1px solid #d0d0d0
+}
+
+.feature__wrapper {
+    border-bottom: 0
+}
+
+#main {
+    max-width: 1024px;
+}
+
+// .page__content .experience-bullets {
+//     padding-left: 6em;
+//     padding-right: 6em;
+//     font-weight: normal;
+//     font-size: 0.8em;
+//     list-style-type: circle;
+// }
+
+.page__content .bio-text {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.page__content .experience-heading {
+    margin-bottom: 0.5em;
+}
+
+.experience-heading-small {
+    font-size: 0.8em;
+    // line-height: 0.5;
+}
+
+.page__content .project-text {
+    font-weight: normal;
 }
