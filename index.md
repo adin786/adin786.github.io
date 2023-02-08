@@ -54,12 +54,13 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 {: .bio-text}
 
 <b>Skip to:</b> <a href="#personal-projects">Projects</a> \| <a href="#experience">Experience</a> \| <a href="#skills">Skills</a>
-{: .bio-text}
-
+{: .bio-text .bio-padding}
 
 ---
 
 # Personal projects
+{: .section-heading}
+
 {% include feature_row id="projects_1" %}
 
 {% include feature_row id="projects_2" %}
@@ -67,63 +68,102 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 ---
 
 # Experience
+{: .section-heading}
 
-![image-center](/assets/images/btc-logo-50.png){: .experience-logo}  
+<div class="experience-table">
 
-**R&D Data Scientist**<br>
-*Bigtincan, Sales Enablement - Jan/2022 to today*{: .experience-heading-small}
-{: .experience-heading .experience-heading-small}
+<div class="experience-row">
+    <div class="experience-left">
+<img src="/assets/images/btc-logo-50.png" class="experience-logo2">
+    </div>
+    <div class="experience-right">
+        <span class="experience-heading-bold">
+R&D Data Scientist
+        </span>
+        <br>
+        <span class="experience-heading-small">
+Bigtincan, Sales Enablement - Jan/2022 to today
+        </span>
+        <br>
+        <span class="experience-text">
+I primarily worked on NLP pipelines, text classification, online topic-modelling, embeddings, voice analytics. 
+I built and deployed an interactive sales call analytics system using EC2, Docker & spaCy. 
+With my engineering focus I established standardised MLOps tooling like Mlflow and DVC, managed a Prodigy annotation server and was responsible for data engineering and ingestion workflows.
+         </span>
+    </div>
+</div>
 
-- I primarily worked on NLP pipelines, text classification, online topic-modelling, embeddings, voice analytics. 
-- I built and deployed an interactive sales call analytics system using EC2, Docker & spaCy. 
-- With my engineering focus I established standardised MLOps tooling like Mlflow and DVC, managed a Prodigy annotation server and was responsible for data engineering and ingestion workflows.
-{: .experience-bullets}
 
-<span>&#8593;</span>
-{: .experience-arrow}
+<div class="experience-row">
+    <div class="experience-left">
+<img src="/assets/images/doosan-logo-50.png" class="experience-logo2">
+    </div>
+    <div class="experience-right">
+        <span class="experience-heading-bold">
+Project Engineer
+        </span>
+        <br>
+        <span class="experience-heading-small">
+Doosan Babcock - May/2019 to Dec/2021
+        </span>
+        <br>
+        <span class="experience-text">
+I served in a technical consultancy as the lead engineer and client-facing project manager for a €1.6 million test-engineering contract. 
+I reported to both client and senior management and explained technical topics to a diverse audience. 
+I used pandas to build a data extraction pipeline and automated visualisation and report generation, doubling documentation throughput. 
+I established the team's Git version control and authored 20+ technical reports.
+         </span>
+    </div>
+</div>
 
-![image-center](/assets/images/doosan-logo-50.png){: .experience-logo}  
 
-**Project Engineer**<br>
-*Doosan Babcock - May/2019 to Dec/2021*{: .experience-heading-small}
-{: .experience-heading .experience-heading-small}
+<div class="experience-row">
+    <div class="experience-left">
+<img src="/assets/images/jlr-logo-50.png" class="experience-logo2">
+    </div>
+    <div class="experience-right">
+        <span class="experience-heading-bold">
+Technical Strategy Analyst
+        </span>
+        <br>
+        <span class="experience-heading-small">
+Jaguar Land Rover - Apr/2017 to Apr/2019
+        </span>
+        <br>
+        <span class="experience-text">
+As an analyst, I presented competitor and market intelligence to Directors and built forecasts for early electric vehicle adoption. 
+I proposed and developed a new EV fleet telematics data pipeline and created a regression model to predict EV battery failures, which helped the business to assess a potential warranty risk of over £10 million. 
+I was also the lead engineer in a technology partnership that delivered a prototype robotic EV charger.
+         </span>
+    </div>
+</div>
 
-- I served in a technical consultancy as the lead engineer and client-facing project manager for a €1.6 million test-engineering contract. 
-- I reported to both client and senior management and explained technical topics to a diverse audience. 
-- I used pandas to build a data extraction pipeline and automated visualisation and report generation, doubling documentation throughput. 
-- I established the team's Git version control and authored 20+ technical reports.
-{: .experience-bullets}
 
-<span>&#8593;</span>
-{: .experience-arrow}
+<div class="experience-row">
+    <div class="experience-left">
+<img src="/assets/images/jlr-logo-50.png" class="experience-logo2">
+    </div>
+    <div class="experience-right">
+        <span class="experience-heading-bold">
+Vehicle Dynamics Engineer
+        </span>
+        <br>
+        <span class="experience-heading-small">
+Jaguar Land Rover - Sep/2015 to Mar/2017
+        </span>
+        <br>
+        <span class="experience-text">
+I was responsible for conducting objective testing and subjective assessment, as well as developing data processing automation tooling and data validation tools using MATLAB. I also developed new vehicle assessment metrics and supported CAE-based tuning using a driving simulator.
+         </span>
+    </div>
+</div>
 
-![image-center](/assets/images/jlr-logo-50.png){: .experience-logo}  
-
-**Technical Strategy Analyst**<br>
-*Jaguar Land Rover - Apr/2017 to Apr/2019*{: .experience-heading-small}
-{: .experience-heading .experience-heading-small}
- 
-- As an analyst, I presented competitor and market intelligence to Directors and built forecasts for early electric vehicle adoption. 
-- I proposed and developed a new EV fleet telematics data pipeline and created a regression model to predict EV battery failures, which helped the business to assess a potential warranty risk of over £10 million. 
-- I was also the lead engineer in a technology partnership that delivered a prototype robotic EV charger.
-{: .experience-bullets}
-
-<span>&#8593;</span>
-{: .experience-arrow}
-
-![image-center](/assets/images/jlr-logo-50.png){: .experience-logo}  
-
-**Vehicle Dynamics Engineer**<br>
-*Jaguar Land Rover - Sep/2015 to Mar/2017*{: .experience-heading-small}
-{: .experience-heading .experience-heading-small}
-
-- I was responsible for conducting objective testing and subjective assessment, as well as developing data processing automation tooling and data validation tools using MATLAB. 
-- I also developed new vehicle assessment metrics and supported CAE-based tuning using a driving simulator.
-{: .experience-bullets}
+</div>
 
 ---
 
 # Skills
+{: .section-heading}
 
 | Languages & Technologies | `Python` `Docker` `AWS` `Sagemaker` `GCP` `Databricks` `linux` `Git` `Jupyter` `SQL` `Matlab`|
 | Python libraries | `scikit-learn` `tensorFlow` `pytorch` `mlflow` `dvc` `wandb` `airflow` `matplotlib` `plotly` `seaborn` `scipy` `pandas` `numpy` `spacy` `prodigy` `librosa` `dask` |

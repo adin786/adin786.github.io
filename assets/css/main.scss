@@ -47,6 +47,18 @@ search: false
     margin-bottom: 0em;
 }
 
+.experience-heading-bold {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 0em;
+}
+
+.experience-heading-small {
+    font-size: 0.8em;
+    font-style: italic;
+    // line-height: 0.5;
+}
+
 .experience-arrow {
     font-weight: normal;
     font-size: 1.5em;
@@ -54,21 +66,88 @@ search: false
     text-align: center;
 }
 
-.experience-bullets {
-    padding-left: 6em;
-    padding-right: 6em;
+// .experience-bullets {
+//     padding-left: 6em;
+//     padding-right: 6em;
+//     font-weight: normal;
+//     font-size: 0.8em;
+//     list-style-type: circle;
+// }
+
+// .experience-bullets2 {
+//     // padding-left: 6em;
+//     // padding-right: 6em;
+//     font-weight: normal;
+//     font-size: 0.8em;
+//     list-style-type: circle;
+//     padding-inline-start: 1em;
+//     font-style: normal;
+// }
+.experience-text {
     font-weight: normal;
     font-size: 0.8em;
-    list-style-type: circle;
+    font-style: normal;
 }
 
 .experience-logo {
-    height: 50px;
+    height: auto;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.experience-logo2 {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .experience-logo2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.experience-table {
+    height: auto;
+    display: table;
+}
+.experience-row {
+    width: 100%; 
+    height: 100%;
+    display: table-row;
+}
+
+.experience-left {
+    vertical-align: middle;
+    float: left;
+    height: 100%;
+    width: 20%;
+    // padding: 1em;
+    display: table-column;
+}
+.experience-right {
+    // vertical-align: top;
+    float: left;
+    width: 80%;
+    // padding-top: 1em;
+    padding-bottom: 2em;
+    display: table-column;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px) {
+    .experience-left, .experience-right {
+        width: 100%; /* The width is 100%, when the viewport is 600px or smaller */
+    }
+}
+
+
 
 .btn-bottom {
     position:absolute;
@@ -124,28 +203,36 @@ hr {
     max-width: 1024px;
 }
 
-// .page__content .experience-bullets {
-//     padding-left: 6em;
-//     padding-right: 6em;
-//     font-weight: normal;
-//     font-size: 0.8em;
-//     list-style-type: circle;
-// }
-
 .page__content .bio-text {
     font-weight: normal;
     font-size: 0.8em;
+}
+
+.bio-padding {
+    padding-bottom: 2em;
 }
 
 .page__content .experience-heading {
     margin-bottom: 0.5em;
 }
 
-.experience-heading-small {
-    font-size: 0.8em;
-    // line-height: 0.5;
-}
-
 .page__content .project-text {
     font-weight: normal;
 }
+
+.masthead__inner-wrap {
+    max-width: 1024px;
+}
+
+.section-heading {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+table {
+    font-size: 0.8em;
+}
+
+// .project-text {
+//     font-size: 1em;
+// }
