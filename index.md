@@ -16,7 +16,7 @@ projects_1:
     title:         "Used Car Values"
     excerpt:       "<span class='project-text'>Web scraped auto trader adverts and predicted valuation of my own car<br>
     `python` `pandas` `numpy` `requests` `BeautifulSoup4` `matplotlib` `seaborn` `sklearn`</span>"
-    url:           "/projects/used-cars"
+    url:           "https://github.com/adin786/autotrader-analysis"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
@@ -24,7 +24,7 @@ projects_1:
     title:         "Job Description NLP"
     excerpt:       "<span class='project-text'>Interactive job description classifier for data jobs. Web scraping and nlp.<br>
     `requests` `BeautifulSoup4` `pandas` `nltk` `spacy` `seaborn` `sklearn` `streamlit`</span>"
-    url:           "/projects/jobs"
+    url:           "https://github.com/adin786/jobs-analysis"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
@@ -33,7 +33,7 @@ projects_2:
     title:         "MOT data analysis"
     excerpt:       "<span class='project-text'>Analysed 30mil MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.<br>
     `sqlite` `pandas` `seaborn` `skLearn`</span>"
-    url:           "/projects/mot"
+    url:           "https://github.com/adin786/mot-data"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
@@ -165,5 +165,5 @@ I was responsible for conducting objective testing and subjective assessment, as
 # Skills
 {: .section-heading}
 
-| Languages & Technologies | `Python` `Docker` `AWS` `Sagemaker` `GCP` `Databricks` `linux` `Git` `Jupyter` `SQL` `Matlab`|
-| Python libraries | `scikit-learn` `tensorFlow` `pytorch` `mlflow` `dvc` `wandb` `airflow` `matplotlib` `plotly` `seaborn` `scipy` `pandas` `numpy` `spacy` `prodigy` `librosa` `dask` |
+| Languages & Technologies | `Python` `SQL` `Docker` `Devcontainers` `AWS` `Sagemaker` `GCP` `Databricks` `Terraform` `Linux` `Git` `Bash` `Jupyter` `Matlab` `CI/CD`|
+| Python libraries | `sklearn` `tensorFlow` `pytorch` `mlflow` `dvc` `wandb` `airflow` `matplotlib` `plotly` `seaborn` `scipy` `pandas` `numpy` `sktime` `spaCy` `Prodigy` `nltk` `librosa` `dask` `pyspark` `transformers` `BERTopic` `pre-commit` `BeautifulSoup4`|
