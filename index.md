@@ -5,34 +5,53 @@ permalink: /
 projects_1:
   - image_path:    /assets/images/energy-teaser2.jpg
     title:         "Energy Forecasting"
-    excerpt:       "<span class='project-text'>Built a CI/CD pipeline for timeseries forecasting + deployment<br>
-    `Terraform` `AWS lambda` `sktime` `mlflow` `dvc` `streamlit` `docker` `pytest` `github-actions`</span>"
+    excerpt:       "<span class='project-text'>
+    Built a serverless ML pipeline for timeseries forecasting + CI/CD.
+    <br>
+    `Terraform` `AWS` `Lambda` `sktime` `mlflow` `dvc` `streamlit` `Docker` `pytest` `github-actions`</span>"
     # url:           "/projects/energy-forecast"
     url:           "https://github.com/adin786/energy_forecast"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
+  - image_path:    /assets/images/tado-teaser.jpg
+    title:         "Smart Home ELT pipeline"
+    excerpt:       "<span class='project-text'>
+    Built an ELT pipeline to ingest smart home JSON data from Tado API, into Postgres.
+    <br>
+    `airflow` `DockerOperator` `Postgres` `SQLAlchemy` `pytest` `JSON` `Makefile`</span>"
+    # url:           "/projects/energy-forecast"
+    url:           "https://github.com/adin786/house_climate"
+    btn_label:     "Read More"
+    btn_class:     "btn--primary"
+
   - image_path:    /assets/images/auto-trader-teaser.jpg
     title:         "Used Car Values"
-    excerpt:       "<span class='project-text'>Web scraped auto trader adverts and predicted valuation of my own car<br>
+    excerpt:       "<span class='project-text'>
+    Web scraped auto trader adverts and predicted valuation of my own car.
+    <br>
     `python` `pandas` `numpy` `requests` `BeautifulSoup4` `matplotlib` `seaborn` `sklearn`</span>"
     url:           "https://github.com/adin786/autotrader-analysis"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
+projects_2:
   - image_path:    /assets/images/jobs.jpg
     title:         "Job Description NLP"
-    excerpt:       "<span class='project-text'>Interactive job description classifier for data jobs. Web scraping and nlp.<br>
+    excerpt:       "<span class='project-text'>
+    Interactive job ad classifier for data jobs. Web scraping and NLP.
+    <br>
     `requests` `BeautifulSoup4` `pandas` `nltk` `spacy` `seaborn` `sklearn` `streamlit`</span>"
     url:           "https://github.com/adin786/jobs-analysis"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
 
-projects_2:
   - image_path:    /assets/images/mot-teaser.jpg
     title:         "MOT data analysis"
-    excerpt:       "<span class='project-text'>Analysed 30mil MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.<br>
-    `sqlite` `pandas` `seaborn` `skLearn`</span>"
+    excerpt:       "<span class='project-text'>
+    Analysed 30mil MOT tests from GOV.uk for trends in vehicle ownership, pass/fail rates etc.
+    <br>
+    `sqlite` `pandas` `seaborn` `sklearn`</span>"
     url:           "https://github.com/adin786/mot-data"
     btn_label:     "Read More"
     btn_class:     "btn--primary"
