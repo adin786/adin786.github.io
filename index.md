@@ -61,12 +61,15 @@ projects_2:
 ![image-center](assets/images/bio-circle.png){: .bio-image}
 
 <h1>Azam Din</h1>{: .text-center .text-h1}
-<p>Data Scientist & ML Engineer</p>{: .text-center .text-h2}
+<p>ML Engineer, MLOps, Leadership</p>{: .text-center .text-h2}
 
-I am an experienced Data Scientist specialising in NLP, conversational AI and signal processing.  My core strengths are in engineering robust ML/data pipelines, cloud infrastructure and MLOps tooling & processes.
+Experienced ML Engineer, currently leading the MLOps team at a national supermarket bank. I've specialised in Python, Docker and AWS, including the Sagemaker ecosystem. I am passionate about engineering robust machine learning and data pipelines, architecting and building out cloud infrastructure, including tooling & processes for MLOps.
 {: .bio-text}
 
-My current role is as a Research Data Scientist for a SaaS offering in the Sales Enablement space where I am building text processing pipelines (NLP), voice feature extractors and content recommenders. As a newly established data science team I am also responsible for maturing the companies ML tooling and processes and I strive to upskill and mentor my fellow Data Scientists to improve engineering quality and standards.
+My current role involves being responsible for the bank's ML platform, devveloping frameworks for contract-based ETL pipelines, ML batch inference, Data Science dev environments, CI/CD, model training pipelines and much more...
+{: .bio-text}
+
+Prior to this I was a Research Data Scientist for a SaaS offering in the Sales Enablement space where I built NLP pipelines, voice feature engineering and content recommenders. As an experienced Python developer, I have mentored my teams to instill engineering quality and standardisation, especially in code quality with efforts in unit testing, abstraction layers, CI/CD.
 {: .bio-text}
 
 With my MEng degree in Mechanical & Aerospace Engineering I specialised in instrumentation and data acquisition systems.  I have led a wide range of analytical projects across various industries including automotive, oil & gas and IT. I am passionate about automating complex processes and building novel machine learning solutions.
@@ -93,6 +96,25 @@ With my MEng degree in Mechanical & Aerospace Engineering I specialised in instr
 
 <div class="experience-row">
     <div class="experience-left">
+<img src="/assets/images/sainsburys_bank_logo.png" class="experience-logo2">
+    </div>
+    <div class="experience-right">
+        <span class="experience-heading-bold">
+Lead MLOps Engineer
+        </span>
+        <br>
+        <span class="experience-heading-small">
+Sainsburys Bank - May/2023 to today
+        </span>
+        <br>
+        <span class="experience-text">
+Led the ML-platform team (AWS, SageMaker, Terraform, CDK, Gitlab CI, Step Funcs, Lambda, CodePipeline). I led the MLOps strategy for the team, evaluating and deploying PoCs for Mlflow, Sagemaker Studio, FastAPI and Streamlit. Developed the bank's first NLP workflows including a topic modelling solution for analysing customer feedback. Built automated model evaluation pipelines. Established containerisation practises and standardised the team's python dev tooling (poetry, ruff, pre-commit, Gitlab CI, cookiecutter templating). Developed a self-service ETL framework for deploying pipelines using JSON contracts (Python, CDK and AWS Step Functions).
+        </span>
+    </div>
+</div>
+
+<div class="experience-row">
+    <div class="experience-left">
 <img src="/assets/images/btc-logo-50.png" class="experience-logo2">
     </div>
     <div class="experience-right">
@@ -101,7 +123,7 @@ R&D Data Scientist
         </span>
         <br>
         <span class="experience-heading-small">
-Bigtincan, Sales Enablement - Jan/2022 to today
+Bigtincan, Sales Enablement - Jan/2022 to Apr/2023
         </span>
         <br>
         <span class="experience-text">
@@ -172,7 +194,7 @@ Jaguar Land Rover - Sep/2015 to Mar/2017
         </span>
         <br>
         <span class="experience-text">
-I was responsible for conducting objective testing and subjective assessment, as well as developing data processing automation tooling and data validation tools using MATLAB. I also developed new vehicle assessment metrics and supported CAE-based tuning using a driving simulator.
+I was responsible for conducting **objective** testing and subjective assessment, as well as developing data processing automation tooling and data validation tools using MATLAB. I also developed new vehicle assessment metrics and supported CAE-based tuning using a driving simulator.
          </span>
     </div>
 </div>
